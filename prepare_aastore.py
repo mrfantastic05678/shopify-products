@@ -399,6 +399,25 @@ def main():
         if brand and brand not in tags_list:
             tags_list.append(brand)
             
+        # Fragrance Gender Categorization (Men Perfume / Women Perfume)
+        if art in ["A Art 26", "A Art 27", "A Art 28", "A Art 29", "A Art 30"]:
+            scent_clean = pname.split("-")[-1].strip().lower()
+            women_keywords = ["women", "damsel", "princes", "pink", "skin", "yara", "blissberry", "sara qael", "romantic", "secrecy", "memories", "red secret", "purple", "now and ever", "engross", "on my mind", "pristine", "desire", "radiant"]
+            men_keywords = ["guys", "dorall", "offender", "islanders", "hunter", "suave", "hawas", "dirham", "beckham", "dinar", "ases", "azure", "have it", "fakhar", "marine", "vintage", "simple", "sumthin", "dc4u", "ivk", "opinion", "hunted", "wild", "black", "brown", "green", "orange", "blue"]
+            
+            is_unisex = any(u in scent_clean for u in ["divine", "ajwad", "whiteoud", "bakhoor"])
+            is_w = any(w in scent_clean for w in women_keywords) or is_unisex
+            has_men_word = bool(re.search(r'\b(men|man)\b', scent_clean))
+            is_m = any(m in scent_clean for m in men_keywords) or has_men_word or is_unisex or art == "A Art 30"
+            
+            if not is_w and not is_m:
+                is_m = True
+                
+            if is_w:
+                tags_list.extend(["Women Perfume", "Women's Perfume", "Women Fragrance"])
+            if is_m:
+                tags_list.extend(["Men Perfume", "Men's Perfume", "Men Fragrance"])
+            
         tags_str = ", ".join(dict.fromkeys(tags_list))
         
         # Images for this product
