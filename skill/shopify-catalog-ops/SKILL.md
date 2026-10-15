@@ -187,7 +187,22 @@ When generating formatted `.xlsx` client review workbooks using `openpyxl`, shee
 - Always truncate or design concise tab names:
   ```python
   ws.title = title[:31]  # E.g. 'MTS Duplicate Listings' instead of 'MTS Duplicates & Price Conflicts'
-  ```
+### Operation J: Standard Product Taxonomy & Product Category Compliance
+Shopify strictly separates **Product Category** (Shopify's Standard Product Taxonomy) from **Type** (custom product types):
+
+- **`Product Category` (The Standardized Taxonomy Column):** Must strictly match a predefined canonical path from Shopify's Standard Product Taxonomy (e.g. `Health & Beauty > Personal Care > Cosmetics > Perfumes & Colognes` or `Home & Garden > Kitchen & Dining > Kitchen Appliances`).
+  - **The Warning:** If an unstandardized, custom, or typo-ridden string is entered into `Product Category`, Shopify imports the product but ignores the category, displaying:
+    > *"Your import contains an invalid product category. You can still import but any invalid categories will not be set. See the Shopify Product Taxonomy for a list of valid product categories."*
+  - **Official Documentation Reference:** [Shopify Help Center: Product Category and Product Types](https://help.shopify.com/manual/products/details/product-type#product-category-and-product-types)
+  - **Official Taxonomy Lists & Downloads:**
+    - Interactive Taxonomy Explorer: [Shopify Standard Product Taxonomy](https://shopify.github.io/product-taxonomy/)
+    - Canonical Categories List: [Shopify Product Taxonomy Releases (GitHub)](https://github.com/Shopify/product-taxonomy/releases/latest) (download `categories.en.txt.gz` containing all 14,000+ valid hierarchical category paths).
+- **`Type` (The Custom Store Category Column):** Use the `Type` column (formerly `custom-product-type`) for internal organization, supplier classifications, and custom collection rules (e.g. `Baby Lotion`, `Insect Killer`, `Air Fryer`).
+- **Common Taxonomy Traps & Canonical Resolutions:**
+  - *Trap:* `Baby & Toddler > Baby Care` (Invalid) $\rightarrow$ *Fix:* `Health & Beauty > Personal Care > Cosmetics > Skin Care` (for baby oils, powders, lotions) or `Baby & Toddler > Baby Health`.
+  - *Trap:* `Health & Beauty > Personal Care > Fragrances` (Invalid) $\rightarrow$ *Fix:* `Health & Beauty > Personal Care > Cosmetics > Perfumes & Colognes`.
+  - *Trap:* `Health & Beauty > Personal Care > Skin Care` (Invalid) $\rightarrow$ *Fix:* `Health & Beauty > Personal Care > Cosmetics > Skin Care`.
+  - *Formatting Rule:* Always maintain exact spacing and casing around greater-than symbols: `Parent > Child > Grandchild`.
 
 ---
 
@@ -202,6 +217,7 @@ python scripts/validate_import.py <import_file.csv>
 The validator verifies:
 - **Handle Integrity:** No missing or blank handles.
 - **Handle Uniqueness:** Exactly one defining product row per unique handle.
+- **Product Category Taxonomy Compliance:** 100% of non-empty values in `Product Category` strictly exist in Shopify's Standard Product Taxonomy, preventing category import warnings.
 - **Option Uniqueness:** No duplicate `(Handle, Option1 Value)` pairs across variant rows.
 - **Price Completeness:** No blank `Variant Price` on rows carrying an option value.
 - **Option Names & Values:** Properly populated variant columns without gaps.

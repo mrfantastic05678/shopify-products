@@ -105,6 +105,22 @@ For missing meta descriptions, derive from the supplied body copy in the same sh
 
 ---
 
+## Product Category (Standardized Taxonomy) vs Type (Custom)
+
+Shopify enforces a strict division between standard taxonomy categories and custom types:
+
+| Field | CSV Column | Allowed Values | Usage / Purpose |
+|---|---|---|---|
+| **Product Category** | `Product Category` | Exact canonical path from [Shopify Standard Product Taxonomy](https://help.shopify.com/manual/products/details/product-type#product-category-and-product-types) | Automated sales tax, Google/Facebook channel syncing, and native Shopify filtering. Invalid strings trigger: *"Your import contains an invalid product category"*. |
+| **Product Type** | `Type` | Any custom string (e.g. `Air Fryer`, `Baby Care`, `Hair Serum`) | Custom collection rules, internal merchant organization, and custom theme storefront navigation. |
+
+### Taxonomy Resources & Category List
+- **Documentation:** [Shopify Help Center: Product Category and Product Types](https://help.shopify.com/manual/products/details/product-type#product-category-and-product-types)
+- **Interactive Explorer:** [Shopify Standard Product Taxonomy Explorer](https://shopify.github.io/product-taxonomy/)
+- **Complete Canonical List:** [Shopify Product Taxonomy Releases (GitHub)](https://github.com/Shopify/product-taxonomy/releases/latest) — download `categories.en.txt.gz` for all 14,000+ official paths.
+
+---
+
 ## Multi-tier tag and category architecture
 
 Shopify automated collections and navigation filters depend on clean tags. Structure tags across 4 hierarchical tiers:

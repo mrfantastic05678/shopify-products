@@ -100,17 +100,21 @@ def parse_weight_grams(weight_str, s_no, art):
         return int(round(val))
     return 100
 
-def get_product_category(cat, sub_cat):
+def get_product_category(cat, sub_cat, product_name=""):
     c = (cat or "").strip().lower()
     s = (sub_cat or "").strip().lower()
-    if "baby" in c or "baby" in s:
-        return "Baby & Toddler > Baby Care"
-    elif "perfume" in c or "perfume" in s or "spray" in s or "scent" in s:
-        return "Health & Beauty > Personal Care > Fragrances"
-    elif "hair" in c or "hair" in s:
+    p = (product_name or "").strip().lower()
+    
+    # 1. Perfumes, Colognes, Body Sprays, Fragrances (including Baby Cologne)
+    if "perfume" in c or "perfume" in s or "cologne" in s or "cologne" in p or "spray" in s or "scent" in s or "spray" in p:
+        return "Health & Beauty > Personal Care > Cosmetics > Perfumes & Colognes"
+    # 2. Hair Care (Hair treatments, masks, waxes, creams)
+    elif "hair" in c or "hair" in s or "wax" in s or "hair" in p:
         return "Health & Beauty > Personal Care > Hair Care"
-    elif "skin" in c or "mask" in s or "lotion" in s or "wipe" in s:
-        return "Health & Beauty > Personal Care > Skin Care"
+    # 3. Skin Care & Baby Skin Care (Lotions, Baby Oil, Baby Powder, Baby Jelly, Sheet Masks, Wipes, Sponges)
+    elif "skin" in c or "mask" in s or "lotion" in s or "wipe" in s or "oil" in s or "powder" in s or "jelly" in s or "baby" in c or "baby" in s or "lotion" in p or "oil" in p or "powder" in p or "jelly" in p or "sponge" in p:
+        return "Health & Beauty > Personal Care > Cosmetics > Skin Care"
+    # 4. General Cosmetics & Makeup (Lip Balm, Lip Gloss, Makeup Blenders)
     else:
         return "Health & Beauty > Personal Care > Cosmetics"
 
@@ -412,7 +416,7 @@ def main():
         if not matched_imgs:
             matched_imgs = folder_imgs
             
-        prod_category = get_product_category(item["cat"], sub_cat)
+        prod_category = get_product_category(item["cat"], sub_cat, item["product_name"])
         prod_type = get_product_type(item["cat"], sub_cat)
         
         products.append({
@@ -630,13 +634,20 @@ def create_review_workbook(products):
 
 def update_consolidated_master(new_products):
     existing_rows = []
-    if os.path.exists(CONSOLIDATED_MASTER_CSV):
-        with open(CONSOLIDATED_MASTER_CSV, "r", encoding="utf-8-sig") as f:
+    base_file = "WinBachat_Combined_Shopify_Import.csv"
+    if os.path.exists(base_file):
+        with open(base_file, "r", encoding="utf-8-sig") as f:
             reader = csv.reader(f)
             header = next(reader)
             existing_rows = list(reader)
+    elif os.path.exists(CONSOLIDATED_MASTER_CSV):
+        with open(CONSOLIDATED_MASTER_CSV, "r", encoding="utf-8-sig") as f:
+            reader = csv.reader(f)
+            header = next(reader)
+            # Filter out any old AASTORE rows if present
+            existing_rows = [r for r in reader if not ('MRT-WB-AASTORE' in r[10] or 'aastore' in r[0].lower())]
             
-    print(f"Existing rows in master: {len(existing_rows)}")
+    print(f"Base products rows loaded: {len(existing_rows)}")
     
     aa_rows = []
     for p in new_products:

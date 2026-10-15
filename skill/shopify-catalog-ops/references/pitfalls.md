@@ -44,6 +44,20 @@ Trailing blank rows survived to the output. `dropna(subset=['Handle'])` before w
 
 The handle doesn't exist in the store. Shopify creates a new product instead of updating. Verify every handle in the import file exists in the export before delivering — a typo or a handle from a stale export creates duplicates silently.
 
+### `Your import contains an invalid product category`
+
+**The Warning:** Shopify displays: *"Your import contains an invalid product category. You can still import but any invalid categories will not be set. See the Shopify Product Taxonomy for a list of valid product categories."*
+
+**Cause:** The string in the `Product Category` column does not match Shopify's official Standard Product Taxonomy hierarchy verbatim. Common triggers include:
+1. Using an intuitive custom category instead of standard taxonomy (e.g. `Baby & Toddler > Baby Care` or `Health & Beauty > Personal Care > Fragrances`).
+2. Skipping parent levels (e.g. writing `Health & Beauty > Personal Care > Skin Care` instead of `Health & Beauty > Personal Care > Cosmetics > Skin Care`).
+3. Spacing or formatting mistakes around the `>` delimiter.
+
+**Fix:**
+- Consult the official guide: [Shopify Product Category and Product Types](https://help.shopify.com/manual/products/details/product-type#product-category-and-product-types).
+- Search the taxonomy tree at [Shopify Standard Product Taxonomy Explorer](https://shopify.github.io/product-taxonomy/) or match against the canonical `categories.en.txt` download from [Shopify Product Taxonomy Releases](https://github.com/Shopify/product-taxonomy/releases/latest).
+- Map custom labels (like `Baby Care` or `Air Fryer`) into the `Type` column, leaving `Product Category` strictly populated with canonical taxonomy strings.
+
 ---
 
 # Part 2 — Silent failures
