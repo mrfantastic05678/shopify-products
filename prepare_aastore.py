@@ -614,7 +614,11 @@ def create_review_workbook(products):
         ("Row 44 (S.No 43) / A Art 24", "One-Row Shift in Title", "Title = 'Johnson\'s Baby Oil 200ml'", "Corrected to 'Nexton Baby Jelly 180ml'", "Disk image and Product Name are Nexton Baby Jelly"),
         ("Rows 28-30 (S.No 27-29) / A Art 18", "Blank Sub CATEGORY", "Sub CATEGORY = None", "Imputed 'Baby Cologne'", "Prevents blank collection filters"),
         ("Rows 44-46 (S.No 43-45) / A Art 24-25", "Blank Sub CATEGORY", "Sub CATEGORY = None", "Imputed 'Baby Jelly'", "Maintains clean hierarchical collection tags"),
-        ("All 80 Sub-Rows across 14 ARTs", "Variant Architecture Consolidation", "Title/Desc/Weight = None", "Populated complete standalone product titles, inherited descriptions, and unique handles", "Ensures all 110 products are live, searchable, and fully documented")
+        ("All 80 Sub-Rows across 14 ARTs", "Variant Architecture Consolidation", "Title/Desc/Weight = None", "Populated complete standalone product titles, inherited descriptions, and unique handles", "Ensures all 110 products are live, searchable, and fully documented"),
+        ("Dorall Perfumes (A Art 29, 26 items)", "Shared Group Photos Only", "26 scents listed; 7 group photos on disk (no individual bottle shots)", "Published Active as individual listings with shared group gallery", "Per store owner policy: kept active while awaiting client individual pack shots"),
+        ("Guys Body Spray (A Art 30, 8 items)", "Shared Group Photos Only", "8 fragrances listed; 1 group photo on disk", "Published Active as individual listings with shared group photo", "Per store owner policy: kept active with shared group shot"),
+        ("Kliock Perfumes (A Art 26, 6 items)", "Shared Group Photos Only", "6 scents listed; 1 group photo on disk", "Published Active as individual listings with shared group photo", "Per store owner policy: kept active with shared group shot"),
+        ("Inertia Perfumes (A Art 27 & 28, 25 items)", "Shared Group Photos Only", "25 scents listed; 5 group photos on disk", "Published Active as individual listings with shared group photos", "Per store owner policy: kept active with shared group shots")
     ]
     for idx, entry in enumerate(audit_entries, start=2):
         ws_audit.append(entry)
