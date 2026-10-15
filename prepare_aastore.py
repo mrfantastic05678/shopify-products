@@ -502,11 +502,13 @@ def main():
                     
     print(f"Saved {AA_SHOPIFY_CSV}")
     
-    # 2. Write WinBachat_AA_Dot_Store_Inventory_Import.csv
+    # 2. Write WinBachat_AA_Dot_Store_Inventory_Import.csv using official 19-column template
     INVENTORY_HEADERS = [
-        "Handle", "Title", "Option1 Name", "Option1 Value",
-        "SKU", "HS Code", "COO", "Location", "Incoming",
-        "Unavailable", "Committed", "Available", "On hand"
+        "Handle", "Title", "Option1 Name", "Option1 Value", "Option2 Name",
+        "Option2 Value", "Option3 Name", "Option3 Value", "SKU", "HS Code",
+        "COO", "Location", "Bin name", "Incoming (not editable)",
+        "Unavailable (not editable)", "Committed (not editable)",
+        "Available (not editable)", "On hand (current)", "On hand (new)"
     ]
     with open(AA_INVENTORY_CSV, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
@@ -517,14 +519,20 @@ def main():
                 p["title"],
                 "Title",
                 "Default Title",
+                "", "", "", "",
                 p["sku"],
                 "", "",
                 "Win Bachat",
+                "",
                 "0", "0", "0",
                 str(p["qty"]),
+                "0",
                 str(p["qty"])
             ])
     print(f"Saved {AA_INVENTORY_CSV}")
+    
+    # Also update/create master consolidated inventory CSV
+    update_consolidated_inventory(products, INVENTORY_HEADERS)
     
     # 3. Create Multi-Tab Review Workbook
     create_review_workbook(products)
@@ -704,6 +712,46 @@ def update_consolidated_master(new_products):
         writer.writerows(all_master_rows)
         
     print(f"Consolidated master CSV updated: {len(all_master_rows)} total rows across Westpoint, MTS Gardening, and AA Dot Store.")
+
+def update_consolidated_inventory(new_products, headers):
+    existing_inv_rows = []
+    base_inv_file = "WinBachat_New_Batches_Inventory_Import.csv"
+    if os.path.exists(base_inv_file):
+        with open(base_inv_file, "r", encoding="utf-8-sig") as f:
+            reader = csv.reader(f)
+            h = next(reader)
+            # Keep non-AASTORE rows
+            existing_inv_rows = [r for r in reader if not ('MRT-WB-AASTORE' in r[8] or 'aastore' in r[0].lower())]
+            
+    print(f"Base inventory rows loaded: {len(existing_inv_rows)}")
+    
+    aa_inv_rows = []
+    for p in new_products:
+        aa_inv_rows.append([
+            p["handle"],
+            p["title"],
+            "Title",
+            "Default Title",
+            "", "", "", "",
+            p["sku"],
+            "", "",
+            "Win Bachat",
+            "",
+            "0", "0", "0",
+            str(p["qty"]),
+            "0",
+            str(p["qty"])
+        ])
+        
+    all_inv_rows = existing_inv_rows + aa_inv_rows
+    # Save both WinBachat_New_Batches_Inventory_Import.csv and WinBachat_Products_Inventory_Import.csv
+    for out_name in ["WinBachat_New_Batches_Inventory_Import.csv", "WinBachat_Products_Inventory_Import.csv"]:
+        with open(out_name, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.writer(f)
+            writer.writerow(headers)
+            writer.writerows(all_inv_rows)
+            
+    print(f"Consolidated master inventory updated ({len(all_inv_rows)} items) across Westpoint, MTS Gardening, and AA Dot Store.")
 
 if __name__ == "__main__":
     main()
