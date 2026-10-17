@@ -1,0 +1,4927 @@
+{
+  "hair-cutting-comb": {
+    "title": "Hair Cutting Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346382",
+        "barcode": "'0745178346382",
+        "price": "210.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "nail-remover-wipes": {
+    "title": "Nail Remover Wipes",
+    "type": "Nail Care",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6946051236019",
+        "barcode": "'6946051236019",
+        "price": "215.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "wooden-hair-comb": {
+    "title": "Wooden Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346719",
+        "barcode": "'0745178346719",
+        "price": "220.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "2-in-1-hair-comb": {
+    "title": "2 In 1 Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346191",
+        "barcode": "'0745178346191",
+        "price": "150.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "afro-comb": {
+    "title": "Afro Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345941",
+        "barcode": "'0745178345941",
+        "price": "145.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-dye-brush": {
+    "title": "Professional Hair Dye Brush",
+    "type": "Accessories",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'236768798532",
+        "barcode": "'236768798532",
+        "price": "190.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "4-in-1-facial-mask-tool-kit": {
+    "title": "4 In 1 Facial Mask Tool Kit",
+    "type": "Accessories",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345989",
+        "barcode": "'0745178345989",
+        "price": "330.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "shower-net": {
+    "title": "Shower Net",
+    "type": "Accessories",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346115",
+        "barcode": "'0745178346115",
+        "price": "275.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "beauty-towel": {
+    "title": "Beauty Towel",
+    "type": "Accessories",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6988885221229",
+        "barcode": "'6988885221229",
+        "price": "205.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "real-techniques-spongee-936": {
+    "title": "Real Techniques Spongee (936)",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'79625014266",
+        "barcode": "'79625014266",
+        "price": "330.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "beauty-blender-puff-999": {
+    "title": "Beauty Blender Puff # 999",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'7603220190013",
+        "barcode": "'7603220190013",
+        "price": "160.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "minibeauty-blender-5-s-994": {
+    "title": "Minibeauty Blender 5's (994)",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345118",
+        "barcode": "'0745178345118",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "applicator-24pcs-549": {
+    "title": "Applicator 24pcs 549",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345347",
+        "barcode": "'0745178345347",
+        "price": "325.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "make-up-puff-406": {
+    "title": "Make Up Puff (406)",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345057",
+        "barcode": "'0745178345057",
+        "price": "155.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "applicator-brush-10pcs-405": {
+    "title": "Applicator Brush 10pcs (405)",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345040",
+        "barcode": "'0745178345040",
+        "price": "190.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "round-puff-402": {
+    "title": "Round Puff (402)",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345019",
+        "barcode": "'0745178345019",
+        "price": "145.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "oval-puff-401": {
+    "title": "Oval Puff (401)",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345002",
+        "barcode": "'0745178345002",
+        "price": "135.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "vitamin-c-serum": {
+    "title": "Vitamin C Serum",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346313",
+        "barcode": "'0745178346313",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "anti-aging-serum": {
+    "title": "Anti Aging Serum",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346320",
+        "barcode": "'0745178346320",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "skin-brightening-serum": {
+    "title": "Skin Brightening Serum",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345866",
+        "barcode": "'0745178345866",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "face-capsules-90-s": {
+    "title": "Face Capsules 90's",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345873",
+        "barcode": "'0745178345873",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "hard-bean-wax-200g": {
+    "title": "Hard Bean Wax 200g",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346726",
+        "barcode": "'0745178346726",
+        "price": "895.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "multi-purpose-brush-small": {
+    "title": "Multi Purpose Brush Small",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6594981955267",
+        "barcode": "'6594981955267",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-makeup-brush": {
+    "title": "Professional Makeup Brush",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'105223010031",
+        "barcode": "'105223010031",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs20": {
+    "title": "Makeup Brush Cs20",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448167",
+        "barcode": "'4052733448167",
+        "price": "670.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs19": {
+    "title": "Makeup Brush Cs19",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448174",
+        "barcode": "'4052733448174",
+        "price": "620.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs18": {
+    "title": "Makeup Brush Cs18",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448136",
+        "barcode": "'4052733448136",
+        "price": "200.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs17": {
+    "title": "Makeup Brush Cs17",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052744227829",
+        "barcode": "'4052744227829",
+        "price": "590.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs16": {
+    "title": "Makeup Brush Cs16",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448792",
+        "barcode": "'4052733448792",
+        "price": "230.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs15": {
+    "title": "Makeup Brush Cs15",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448693",
+        "barcode": "'4052733448693",
+        "price": "270.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs14": {
+    "title": "Makeup Brush Cs14",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448594",
+        "barcode": "'4052733448594",
+        "price": "270.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs13": {
+    "title": "Makeup Brush Cs13",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448495",
+        "barcode": "'4052733448495",
+        "price": "255.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs12": {
+    "title": "Makeup Brush Cs12",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448396",
+        "barcode": "'4052733448396",
+        "price": "255.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs11": {
+    "title": "Makeup Brush Cs11",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448150",
+        "barcode": "'4052733448150",
+        "price": "310.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs09": {
+    "title": "Makeup Brush Cs09",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448105",
+        "barcode": "'4052733448105",
+        "price": "270.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs08": {
+    "title": "Makeup Brush Cs08",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448143",
+        "barcode": "'4052733448143",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs05": {
+    "title": "Makeup Brush Cs05",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448266",
+        "barcode": "'4052733448266",
+        "price": "385.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs04": {
+    "title": "Makeup Brush Cs04",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'486015101176",
+        "barcode": "'486015101176",
+        "price": "400.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs03": {
+    "title": "Makeup Brush Cs03",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'486015101169",
+        "barcode": "'486015101169",
+        "price": "385.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-cs02": {
+    "title": "Makeup Brush Cs02",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'486015101152",
+        "barcode": "'486015101152",
+        "price": "420.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "dip-eyeliner": {
+    "title": "Dip Eyeliner",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346080",
+        "barcode": "'0745178346080",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "extreme-liquid-eyeliner": {
+    "title": "Extreme Liquid Eyeliner",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346443",
+        "barcode": "'0745178346443",
+        "price": "550.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "super-glow-highlighter": {
+    "title": "Super Glow Highlighter",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6970975182060",
+        "barcode": "'6970975182060",
+        "price": "670.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "4-in-1-baked-highlighter": {
+    "title": "4 In 1 Baked Highlighter",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346757",
+        "barcode": "'0745178346757",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "3-in-3-highlighter-blusher": {
+    "title": "3 In 3 Highlighter & Blusher",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346733",
+        "barcode": "'0745178346733",
+        "price": "640.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "3d-pearl-eyeshade": {
+    "title": "3D Pearl Eyeshade",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'1000000617351",
+        "barcode": "'1000000617351",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "glitter-eyeshadow": {
+    "title": "Glitter Eyeshadow",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8809244160233",
+        "barcode": "'8809244160233",
+        "price": "255.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "3d-sparkling-dust": {
+    "title": "3D Sparkling Dust",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0675997014578",
+        "barcode": "'0675997014578",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "3d-sparking-eyeliner": {
+    "title": "3D Sparking Eyeliner",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6971772480151",
+        "barcode": "'6971772480151",
+        "price": "450.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "matte-lip-gloss": {
+    "title": "Matte Lip Gloss",
+    "type": "Lip Makeup",
+    "tags": "Cat: Color Cosmetics",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6971772480144",
+        "barcode": "'6971772480144",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "trimming-eyebrow-set": {
+    "title": "Trimming Eyebrow Set",
+    "type": "Accessories",
+    "tags": "Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Style",
+        "opt1_val": "A",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346474",
+        "barcode": "'0745178346474",
+        "price": "260.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "B",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346665",
+        "barcode": "'0745178346665",
+        "price": "260.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "makeup-brush-set": {
+    "title": "Makeup Brush Set",
+    "type": "Brush",
+    "tags": "Cat: Makeup Brushes",
+    "variants": [
+      {
+        "opt1_name": "Set",
+        "opt1_val": "12pcs (Card)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346061",
+        "barcode": "'0745178346061",
+        "price": "900.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "5pcs",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6926641006154",
+        "barcode": "'6926641006154",
+        "price": "450.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "6's",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346658",
+        "barcode": "'0745178346658",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "compact-puff": {
+    "title": "Compact Puff",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Size",
+        "opt1_val": "Small (2pcs)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345026",
+        "barcode": "'0745178345026",
+        "price": "160.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Large",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345033",
+        "barcode": "'0745178345033",
+        "price": "160.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "facial-sponge": {
+    "title": "Facial Sponge",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Style",
+        "opt1_val": "601 (2s)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345323",
+        "barcode": "'0745178345323",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "602 (2s Large)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345330",
+        "barcode": "'0745178345330",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "604",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0760322409001",
+        "barcode": "'0760322409001",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "605 (8s Medium)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345125",
+        "barcode": "'0745178345125",
+        "price": "255.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "606 (Single)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345101",
+        "barcode": "'0745178345101",
+        "price": "255.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "777 (Regular 2pcs)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345354",
+        "barcode": "'0745178345354",
+        "price": "135.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "controlling-puff": {
+    "title": "Controlling Puff",
+    "type": "Accessories",
+    "tags": "Cat: Makeup Puff",
+    "variants": [
+      {
+        "opt1_name": "Code",
+        "opt1_val": "701 (4's)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345064",
+        "barcode": "'0745178345064",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "702 (8's)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345071",
+        "barcode": "'0745178345071",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "703 (2's)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345088",
+        "barcode": "'0745178345088",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "704 (4's)",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345095",
+        "barcode": "'0745178345095",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "prickly-heat-powder": {
+    "title": "Prickly Heat Powder",
+    "type": "Skin Care",
+    "tags": "Cat: Talcum Powder",
+    "variants": [
+      {
+        "opt1_name": "Type",
+        "opt1_val": "Neem Extract",
+        "opt2_name": "Size",
+        "opt2_val": "100ml",
+        "sku": "'0745178345286",
+        "barcode": "'0745178345286",
+        "price": "180.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Extra Cool",
+        "opt2_name": "",
+        "opt2_val": "100ml",
+        "sku": "'0745178345293",
+        "barcode": "'0745178345293",
+        "price": "180.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Neem Extract",
+        "opt2_name": "",
+        "opt2_val": "200ml",
+        "sku": "'0745178345309",
+        "barcode": "'0745178345309",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Extra Cool",
+        "opt2_name": "",
+        "opt2_val": "200ml",
+        "sku": "'0745178345316",
+        "barcode": "'0745178345316",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "baby-mist-100ml": {
+    "title": "Baby Mist 100ml",
+    "type": "Skin Care",
+    "tags": "Cat: Body Splash",
+    "variants": [
+      {
+        "opt1_name": "Scent",
+        "opt1_val": "Chue",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346863",
+        "barcode": "'0745178346863",
+        "price": "550.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Dolly",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346832",
+        "barcode": "'0745178346832",
+        "price": "550.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Angel",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346825",
+        "barcode": "'0745178346825",
+        "price": "550.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Cutey",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346856",
+        "barcode": "'0745178346856",
+        "price": "550.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Dino",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346849",
+        "barcode": "'0745178346849",
+        "price": "550.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Joy Baba",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346870",
+        "barcode": "'0745178346870",
+        "price": "550.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "body-splash-155ml": {
+    "title": "Body Splash 155ml",
+    "type": "Skin Care",
+    "tags": "Cat: Body Splash",
+    "variants": [
+      {
+        "opt1_name": "Scent",
+        "opt1_val": "Island Mood",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345132",
+        "barcode": "'0745178345132",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Cherry Blossom",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345149",
+        "barcode": "'0745178345149",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Warm Night",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345156",
+        "barcode": "'0745178345156",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Dream Daisy",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345163",
+        "barcode": "'0745178345163",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Enjoy Life",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345170",
+        "barcode": "'0745178345170",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Be Myself",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345187",
+        "barcode": "'0745178345187",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Dancing Waters",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345194",
+        "barcode": "'0745178345194",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Tropical Woods",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345200",
+        "barcode": "'0745178345200",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Dream Chiffon",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345217",
+        "barcode": "'0745178345217",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Fly Away",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345224",
+        "barcode": "'0745178345224",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Poisonous Kiss",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345231",
+        "barcode": "'0745178345231",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Moon Light Shadow",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345248",
+        "barcode": "'0745178345248",
+        "price": "765.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "face-wash-100ml": {
+    "title": "Face Wash 100ml",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Type",
+        "opt1_val": "Aloevera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346627",
+        "barcode": "'0745178346627",
+        "price": "555.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Charcoal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346634",
+        "barcode": "'0745178346634",
+        "price": "555.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Oil Control",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346603",
+        "barcode": "'0745178346603",
+        "price": "555.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Lemon",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346610",
+        "barcode": "'0745178346610",
+        "price": "555.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Goat Milk",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346641",
+        "barcode": "'0745178346641",
+        "price": "555.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Skin Lightening",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346597",
+        "barcode": "'0745178346597",
+        "price": "555.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "hair-spray": {
+    "title": "Hair Spray",
+    "type": "Hair Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Size",
+        "opt1_val": "Small",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345910",
+        "barcode": "'0745178345910",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Large",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346740",
+        "barcode": "'0745178346740",
+        "price": "675.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "sherbet-body-scrub-300ml": {
+    "title": "Sherbet Body Scrub 300ml",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Flavour",
+        "opt1_val": "Strawberry",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346795",
+        "barcode": "'0745178346795",
+        "price": "640.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Olive",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346764",
+        "barcode": "'0745178346764",
+        "price": "640.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Almond",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346788",
+        "barcode": "'0745178346788",
+        "price": "640.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Rice",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346771",
+        "barcode": "'0745178346771",
+        "price": "640.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Apricot",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346818",
+        "barcode": "'0745178346818",
+        "price": "640.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Coffee",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346801",
+        "barcode": "'0745178346801",
+        "price": "640.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "finger-wax-200g": {
+    "title": "Finger Wax 200g",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Flavour",
+        "opt1_val": "Charcoal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667843",
+        "barcode": "'8819958667843",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Strawberry",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667836",
+        "barcode": "'8819958667836",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Aloevera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667812",
+        "barcode": "'8819958667812",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Lemon",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667805",
+        "barcode": "'8819958667805",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Green Apple",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667829",
+        "barcode": "'8819958667829",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "creamy-wax-400g": {
+    "title": "Creamy Wax 400g",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care",
+    "variants": [
+      {
+        "opt1_name": "Flavour",
+        "opt1_val": "Charcoal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667898",
+        "barcode": "'8819958667898",
+        "price": "810.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Strawberry",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667881",
+        "barcode": "'8819958667881",
+        "price": "810.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Aloevera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667867",
+        "barcode": "'8819958667867",
+        "price": "810.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Lemon",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667850",
+        "barcode": "'8819958667850",
+        "price": "810.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Green Apple",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8819958667874",
+        "barcode": "'8819958667874",
+        "price": "810.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "ultra-hd-professional-tv-paint-stick-1": {
+    "title": "Ultra HD Professional TV Paint Stick",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation, Paint Stick",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "840.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/93_32d496bc-a676-4a57-bcb7-0ae3b761050b.png?v=1766824101",
+        "var_img": ""
+      }
+    ]
+  },
+  "ultra-hd-professional-tv-paint-stick": {
+    "title": "Ultra HD Professional TV Paint Stick",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation, Paint Stick",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "840.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/93_32d496bc-a676-4a57-bcb7-0ae3b761050b.png?v=1766824101",
+        "var_img": ""
+      }
+    ]
+  },
+  "cosmee-nit-comb": {
+    "title": "Cosmee Nit Comb",
+    "type": "Hair Care",
+    "tags": "Accessories, Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345262",
+        "barcode": "'0745178345262",
+        "price": "200.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/59_d3c02eef-d0e7-43fe-8600-56d9aa4ff6b2.png?v=1766819379",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/60_cc60a046-2f96-40c3-ad3e-1e50aa63fb9d.png?v=1766819380",
+        "var_img": ""
+      }
+    ]
+  },
+  "cosmee-powder-puff": {
+    "title": "Cosmee Powder Puff",
+    "type": "Accessories",
+    "tags": "Accessories, Face, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "160.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/62_9dcc10d7-0997-4831-a07c-8b192fefb59e.png?v=1766819509",
+        "var_img": ""
+      }
+    ]
+  },
+  "cosmee-cosmetics-powder-puffs": {
+    "title": "Cosmee Cosmetics Powder Puffs",
+    "type": "Accessories",
+    "tags": "Accessories, Face, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "160.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/53.png?v=1766818758",
+        "var_img": ""
+      }
+    ]
+  },
+  "cosmee-cosmetics-powder-puff": {
+    "title": "Cosmee Cosmetics Powder Puff",
+    "type": "Accessories",
+    "tags": "Accessories, Face, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "160.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/50_1a398606-99cd-4d44-b53c-1cffb5e9c039.png?v=1766818579",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/51.png?v=1766818578",
+        "var_img": ""
+      }
+    ]
+  },
+  "high-quality-powder-puff": {
+    "title": "High-Quality Powder Puff",
+    "type": "Accessories",
+    "tags": "Accessories, Face, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "160.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/46_c6941f8c-960b-416d-972b-4acc7a3b6cb3.png?v=1766818274",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/47_15117dcc-248d-43dd-af40-76ea41cdba05.png?v=1766818275",
+        "var_img": ""
+      }
+    ]
+  },
+  "blending-brush": {
+    "title": "Blending Brush",
+    "type": "Brush",
+    "tags": "Brush, Cat: Makeup Brushes, Makeup Brush",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448273",
+        "barcode": "'4052733448273",
+        "price": "500.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/26_f2fd084b-f082-44b7-b091-a904f83c5e63.png?v=1766817165",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/27_52ca2760-14d7-4306-b6e9-4d9767453612.png?v=1766817164",
+        "var_img": ""
+      }
+    ]
+  },
+  "flat-buffing-brush": {
+    "title": "Flat Buffing Brush",
+    "type": "Brush",
+    "tags": "Brush, Cat: Makeup Brushes, Makeup Brush",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'486015101145",
+        "barcode": "'486015101145",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/24_e80677b5-84cd-4515-a07d-381138f2295b.png?v=1766817083",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/25_5a4ffbb8-56bd-4c46-88d6-9c83f68d0ce0.png?v=1766817083",
+        "var_img": ""
+      }
+    ]
+  },
+  "cut-contor-brush": {
+    "title": "Cut Contor Brush",
+    "type": "Brush",
+    "tags": "Brush, Cat: Makeup Brushes, Makeup Brush",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448280",
+        "barcode": "'4052733448280",
+        "price": "400.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/23_5365a8a7-440d-492d-a010-cfb09283edf1.png?v=1766816882",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/22_c12d3452-0b6a-410f-8727-a6189133d007.png?v=1766816882",
+        "var_img": ""
+      }
+    ]
+  },
+  "eye-shadow-brush": {
+    "title": "Eye Shadow Brush",
+    "type": "Brush",
+    "tags": "Brush, Cat: Makeup Brushes, Eye, Eye Shadow, Makeup Brush",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4052733448297",
+        "barcode": "'4052733448297",
+        "price": "280.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/20_ac3886da-e686-4b58-a549-054cd84a579e.png?v=1766816790",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/21_9a941b38-f447-42c2-b303-71c2304a7660.png?v=1766816790",
+        "var_img": ""
+      }
+    ]
+  },
+  "liquid-foundation": {
+    "title": "Liquid Foundation",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6906019486092",
+        "barcode": "'6906019486092",
+        "price": "1060.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/3_69c6fcef-469d-4579-8040-102179ea6008.png?v=1766815872",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/4_c29151af-7627-41cb-a886-5d31eeb41708.png?v=1766815873",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-10": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-11",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/16_6437a3bb-f458-4d82-bd45-c5aaa7088b91.png?v=1766816602",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/17_4580e0bf-988a-4ef1-9d3a-1efe18e64d97.png?v=1766816602",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-9": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-10",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/121.png?v=1766815118",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-8": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-09",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/120.png?v=1766815085",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-7": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-08",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/44_1a4dcf45-086e-4db0-ad0b-a78a238a1396.png?v=1766818112",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/45_7e757cce-4153-40fb-9394-d13f8c3c9746.png?v=1766818112",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-6": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-07",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/118.png?v=1766815032",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-5": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-06",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/117.png?v=1766814997",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-4": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-05",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/116.png?v=1766814972",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-3": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-04",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/115.png?v=1766814955",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-2": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-03",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/114.png?v=1766814934",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb-1": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-02",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/113.png?v=1766814883",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comq": {
+    "title": "Professional Hair Comq",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-12",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/112.png?v=1766814854",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-hair-comb": {
+    "title": "Professional Hair Comb",
+    "type": "Hair Care",
+    "tags": "Cat: Accessories, Hair, Hair Comb",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "0745178345514-01",
+        "barcode": "'0745178345514",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/111.png?v=1766814828",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-makeup-brush-kit-1": {
+    "title": "Professional Makeup Brush Kit",
+    "type": "Brush",
+    "tags": "Brush, Cat: Makeup Brushes, Makeup Brush",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346009",
+        "barcode": "'0745178346009",
+        "price": "3570.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/110.png?v=1766814257",
+        "var_img": ""
+      }
+    ]
+  },
+  "body-wax-strip-22pcs": {
+    "title": "Body Wax Strip 22pcs",
+    "type": "Skin Care",
+    "tags": "Cat: Wax Strips, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Flavour",
+        "opt1_val": "Charcoal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345415",
+        "barcode": "'0745178345415",
+        "price": "595.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/108.png?v=1766814204",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Aloe Vera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345446",
+        "barcode": "'0745178345446",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Blue Berry",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345453",
+        "barcode": "'0745178345453",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Red Berries",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345439",
+        "barcode": "'0745178345439",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Velvet Rose",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345422",
+        "barcode": "'0745178345422",
+        "price": "595.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "professional-makeup-brush-kit": {
+    "title": "Professional Makeup Brush Kit",
+    "type": "Brush",
+    "tags": "Brush, Cat: Makeup Brushes, Makeup Brush",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345996",
+        "barcode": "'0745178345996",
+        "price": "2350.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/109.png?v=1766814221",
+        "var_img": ""
+      }
+    ]
+  },
+  "face-wax-strip-20pcs": {
+    "title": "Face Wax Strip 20pcs",
+    "type": "Skin Care",
+    "tags": "Cat: Wax Strips, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Flavour",
+        "opt1_val": "Charcoal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345460",
+        "barcode": "'0745178345460",
+        "price": "425.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/107.png?v=1766814172",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Aloe Vera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345491",
+        "barcode": "'0745178345491",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Red Berries",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345484",
+        "barcode": "'0745178345484",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Blue Berry",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345507",
+        "barcode": "'0745178345507",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Purple Petal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345477",
+        "barcode": "'0745178345477",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "blackhead-nose-strip": {
+    "title": "Blackhead Nose Strip",
+    "type": "Skin Care",
+    "tags": "Cat: Wax Strips, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Flavour",
+        "opt1_val": "Blue Berry",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345361",
+        "barcode": "'0745178345361",
+        "price": "425.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/106.png?v=1766814149",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Purple Petal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345392",
+        "barcode": "'0745178345392",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Red Berries",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345385",
+        "barcode": "'0745178345385",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Charcoal",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345408",
+        "barcode": "'0745178345408",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Aloe Vera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345378",
+        "barcode": "'0745178345378",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "aloevera-jar": {
+    "title": "Aloevera Jar",
+    "type": "Skin Care",
+    "tags": "Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "240.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/102.png?v=1766813920",
+        "var_img": ""
+      }
+    ]
+  },
+  "hand-body-lotion": {
+    "title": "Hand & Body Lotion",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Moisturizer, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Type",
+        "opt1_val": "Aloe Vera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346085",
+        "barcode": "'0745178346085",
+        "price": "425.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/105.png?v=1766814049",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Almond Oil",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346122",
+        "barcode": "'0745178346122",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Vitamin C",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346139",
+        "barcode": "'0745178346139",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Collagen",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346146",
+        "barcode": "'0745178346146",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Shea Butter",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346153",
+        "barcode": "'0745178346153",
+        "price": "425.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "talcum-powder-250gm": {
+    "title": "Talcum Powder 250gm",
+    "type": "Skin Care",
+    "tags": "Cat: Talcum Powder, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Scent",
+        "opt1_val": "Pink Charming",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462366633",
+        "barcode": "'6665462366633",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/29_cbf310a6-cccd-4187-9660-ae447c215496.png?v=1766817494",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Denim Crush",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462366671",
+        "barcode": "'6665462366671",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/30_9e05f6a3-2a2b-4047-a290-0593306b3eae.png?v=1766817492",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Romantic Rose",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462366626",
+        "barcode": "'6665462366626",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/31_7b4fc7e6-bf8b-4a1e-9d17-fc0e81d20a8c.png?v=1766817492",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Gucci Bloom",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462366657",
+        "barcode": "'6665462366657",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/32_b5112a4d-4257-4eac-b71c-0d6537735048.png?v=1766817492",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Wild Jasmine",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462366619",
+        "barcode": "'6665462366619",
+        "price": "385.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Pure Musk",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462366640",
+        "barcode": "'6665462366640",
+        "price": "385.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "talcum-powder-125gm": {
+    "title": "Talcum Powder 125gm",
+    "type": "Skin Care",
+    "tags": "Cat: Talcum Powder, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Scent",
+        "opt1_val": "Pink Charming",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462355576",
+        "barcode": "'6665462355576",
+        "price": "230.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/30_43edb15a-6970-40fe-8fc7-c91e1f628614.png?v=1766817532",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Pure Musk",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462355903",
+        "barcode": "'6665462355903",
+        "price": "230.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/31_6cbcadc4-cff5-43bc-83df-8a8fe50dcdfc.png?v=1766817529",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Wild Jasmine",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462355484",
+        "barcode": "'6665462355484",
+        "price": "230.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/32_638b24ba-8e2e-42d8-8548-685458c8de9b.png?v=1766817532",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Romantic Rose",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462355507",
+        "barcode": "'6665462355507",
+        "price": "230.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/29_50ddf678-a2cb-4a1e-9691-deea52d17b90.png?v=1766817530",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Gucci Bloom",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462358102",
+        "barcode": "'6665462358102",
+        "price": "230.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Denim Crush",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462359208",
+        "barcode": "'6665462359208",
+        "price": "230.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "aloevera-gel": {
+    "title": "Aloevera Gel",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Size",
+        "opt1_val": "80g",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8908010016030",
+        "barcode": "'8908010016030",
+        "price": "210.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/101.png?v=1766813884",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "120ml",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8908010017754",
+        "barcode": "'8908010017754",
+        "price": "300.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "260ml",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6955702401386",
+        "barcode": "'6955702401386",
+        "price": "420.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "300ml",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6936929415547",
+        "barcode": "'6936929415547",
+        "price": "330.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "pink-magic-lip-balm": {
+    "title": "Pink Magic Lip Balm",
+    "type": "Lip Makeup",
+    "tags": "Cat: Personal Care, Lip Balm, Lips",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346337",
+        "barcode": "'0745178346337",
+        "price": "95.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/100.png?v=1766813824",
+        "var_img": ""
+      }
+    ]
+  },
+  "fruity-lip-balm": {
+    "title": "Fruity Lip Balm",
+    "type": "Lip Makeup",
+    "tags": "Cat: Personal Care, Lip Balm, Lips",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346450",
+        "barcode": "'0745178346450",
+        "price": "145.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/99.png?v=1766813731",
+        "var_img": ""
+      }
+    ]
+  },
+  "face-serum": {
+    "title": "Face Serum",
+    "type": "Skin Care",
+    "tags": "Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "700.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/66_cfd5f231-4675-4cdf-85a8-bcc512aab536.png?v=1766819772",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/67_29d1b237-b43b-4251-b5be-eeb8b22455fc.png?v=1766819770",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/68_ffdb45e9-caad-477f-b14f-6e0ebbdd23bb.png?v=1766819769",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/69_6df3aadb-a8b5-4398-aef9-88c4b9c2b67c.png?v=1766819769",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/70_a3172268-ffb1-46db-bf68-606493902eeb.png?v=1766819769",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/71_42d5fca9-4ca8-4345-8aa7-bcdf73da15b0.png?v=1766819770",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/72_21ca085d-d157-4cae-93d8-ff404a43ca03.png?v=1766819769",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/73_44313d60-fea9-4812-b121-fe219020e2ad.png?v=1766819769",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/74.png?v=1766819769",
+        "var_img": ""
+      }
+    ]
+  },
+  "facial-ampoules": {
+    "title": "Facial Ampoules",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Type",
+        "opt1_val": "Skin Lightening Ampoule",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346269",
+        "barcode": "'0745178346269",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/97.png?v=1766813653",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Anti-Acne Ampoule",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346276",
+        "barcode": "'0745178346276",
+        "price": "130.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Anti-Wrinkle Booster",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346283",
+        "barcode": "'0745178346283",
+        "price": "130.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "aloevera-facial-capsule": {
+    "title": "Aloevera Facial Capsule",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345927",
+        "barcode": "'0745178345927",
+        "price": "895.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/96.png?v=1766813618",
+        "var_img": ""
+      }
+    ]
+  },
+  "gold-facial-capsule": {
+    "title": "Gold Facial Capsule",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'105223010024",
+        "barcode": "'105223010024",
+        "price": "895.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/95.png?v=1766813583",
+        "var_img": ""
+      }
+    ]
+  },
+  "whitening-facial-capsule": {
+    "title": "Whitening Facial Capsule",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'105223010017",
+        "barcode": "'105223010017",
+        "price": "1020.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/94.png?v=1766813548",
+        "var_img": ""
+      }
+    ]
+  },
+  "vitmen-e-face-capsule": {
+    "title": "Vitmen-E-Face Capsule",
+    "type": "Skin Care",
+    "tags": "Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "1050.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/93.png?v=1766813512",
+        "var_img": ""
+      }
+    ]
+  },
+  "hair-capsule": {
+    "title": "Hair Capsule",
+    "type": "Hair Care",
+    "tags": "Cat: Personal Care, Hair, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345880",
+        "barcode": "'0745178345880",
+        "price": "725.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/92.png?v=1766813499",
+        "var_img": ""
+      }
+    ]
+  },
+  "mix-fruit-scrub": {
+    "title": "Mix Fruit Scrub",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'431806470375",
+        "barcode": "'431806470375",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/91..png?v=1766811283",
+        "var_img": ""
+      }
+    ]
+  },
+  "skin-polish": {
+    "title": "Skin Polish",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'431806470351",
+        "barcode": "'431806470351",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/90.png?v=1766811266",
+        "var_img": ""
+      }
+    ]
+  },
+  "kiwi-mask": {
+    "title": "Kiwi Mask",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'431806470313",
+        "barcode": "'431806470313",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/89.png?v=1766811225",
+        "var_img": ""
+      }
+    ]
+  },
+  "aloevera-massage-cream": {
+    "title": "Aloevera Massage Cream",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'431806470306",
+        "barcode": "'431806470306",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/88.png?v=1766811194",
+        "var_img": ""
+      }
+    ]
+  },
+  "double-action-cleanser": {
+    "title": "Double Action Cleanser",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'431806470382",
+        "barcode": "'431806470382",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/87.png?v=1766811162",
+        "var_img": ""
+      }
+    ]
+  },
+  "peach-scrub": {
+    "title": "Peach Scrub",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'431806470337",
+        "barcode": "'431806470337",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/86.png?v=1766811141",
+        "var_img": ""
+      }
+    ]
+  },
+  "oil-wax-400gm": {
+    "title": "Oil Wax 400GM",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Flavour",
+        "opt1_val": "Green Apple",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8908010016061",
+        "barcode": "'8908010016061",
+        "price": "670.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/85.png?v=1766811095",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Strawberry",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8908010016047",
+        "barcode": "'8908010016047",
+        "price": "670.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Orange",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8908010016054",
+        "barcode": "'8908010016054",
+        "price": "670.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Aloevera",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8908010016085",
+        "barcode": "'8908010016085",
+        "price": "670.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Lemon",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8908010016078",
+        "barcode": "'8908010016078",
+        "price": "670.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "hard-wax-bean-1": {
+    "title": "Hard Wax Bean",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'7603276880012",
+        "barcode": "'7603276880012",
+        "price": "1320.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/84.png?v=1766735228",
+        "var_img": ""
+      }
+    ]
+  },
+  "hard-wax-bean": {
+    "title": "Hard Wax Bean",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6971072790042",
+        "barcode": "'6971072790042",
+        "price": "555.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/83.png?v=1766735160",
+        "var_img": ""
+      }
+    ]
+  },
+  "facial-band": {
+    "title": "Facial Band",
+    "type": "Accessories",
+    "tags": "Accessories, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "390.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/81.png?v=1766735073",
+        "var_img": ""
+      }
+    ]
+  },
+  "facial-cleansing-brush": {
+    "title": "Facial Cleansing Brush",
+    "type": "Brush",
+    "tags": "Brush, Cat: Accessories, Makeup Brush, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346467",
+        "barcode": "'0745178346467",
+        "price": "470.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/82.png?v=1766735095",
+        "var_img": ""
+      }
+    ]
+  },
+  "fiber-wax-paper-1": {
+    "title": "Fiber Wax Paper",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6981136304535",
+        "barcode": "'6981136304535",
+        "price": "470.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/41_78342a69-997b-4d3b-ad48-bed802754e39.png?v=1766818167",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/48_c11a4c98-15a9-40a2-8a9f-6bf0d5849391.png?v=1766818399",
+        "var_img": ""
+      }
+    ]
+  },
+  "fiber-wax-roll": {
+    "title": "Fiber Wax Roll",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6983472005541",
+        "barcode": "'6983472005541",
+        "price": "2085.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/28_555fcfa8-cea9-4ba3-98e0-d2d0dab16b06.png?v=1766817256",
+        "var_img": ""
+      }
+    ]
+  },
+  "brown-wax-paper": {
+    "title": "Brown Wax Paper",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'5010724565728",
+        "barcode": "'5010724565728",
+        "price": "265.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/79.png?v=1766735001",
+        "var_img": ""
+      }
+    ]
+  },
+  "fiber-wax-paper": {
+    "title": "Fiber Wax Paper",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6983720012468",
+        "barcode": "'6983720012468",
+        "price": "300.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/78.png?v=1766734990",
+        "var_img": ""
+      }
+    ]
+  },
+  "wooden-cotton-buds": {
+    "title": "Wooden Cotton Buds",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Size",
+        "opt1_val": "100 pcs",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346344",
+        "barcode": "'0745178346344",
+        "price": "190.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/76.png?v=1766734877",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "200 pcs",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346351",
+        "barcode": "'0745178346351",
+        "price": "260.00",
+        "img": "",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "500 pcs",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346368",
+        "barcode": "'0745178346368",
+        "price": "500.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "body-razor-1": {
+    "title": "Body Razor",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "280.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/39_c3167eb1-5289-41b4-b85e-f56364812b19.png?v=1766817820",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/40_315dc38c-29e2-403b-8bc8-372ebe6ac85e.png?v=1766817819",
+        "var_img": ""
+      }
+    ]
+  },
+  "eye-brow-trimming-set-mini": {
+    "title": "Eye Brow Trimming Set Mini",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Eye, Eyebrow, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Style",
+        "opt1_val": "A",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346481",
+        "barcode": "'0745178346481",
+        "price": "240.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/73.png?v=1766734800",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "B",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346672",
+        "barcode": "'0745178346672",
+        "price": "240.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "eye-brow-razor": {
+    "title": "Eye Brow Razor",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Eye, Eyebrow",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6609936432356",
+        "barcode": "'6609936432356",
+        "price": "170.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "prep-razor-1": {
+    "title": "Prep Razor",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346047",
+        "barcode": "'0745178346047",
+        "price": "300.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/63_6bb2b8b6-a0ac-4765-aea6-ea01b3d64f81.png?v=1766819811",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/64_a76c8a5b-ce6b-4462-99fa-937deab17202.png?v=1766819810",
+        "var_img": ""
+      }
+    ]
+  },
+  "prep-razor": {
+    "title": "Prep Razor",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346030",
+        "barcode": "'0745178346030",
+        "price": "165.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/70.png?v=1766734472",
+        "var_img": ""
+      }
+    ]
+  },
+  "body-razor": {
+    "title": "Body Razor",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345637",
+        "barcode": "'0745178345637",
+        "price": "280.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/69.png?v=1766734449",
+        "var_img": ""
+      }
+    ]
+  },
+  "blue-body-razor-3-blades": {
+    "title": "Blue Body Razor 3 Blades",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346542",
+        "barcode": "'0745178346542",
+        "price": "500.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/68.png?v=1766734420",
+        "var_img": ""
+      }
+    ]
+  },
+  "pink-body-razor-3-blades": {
+    "title": "Pink Body Razor 3 Blades",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346559",
+        "barcode": "'0745178346559",
+        "price": "500.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/67.png?v=1766734391",
+        "var_img": ""
+      }
+    ]
+  },
+  "3-womens-body-razor-3-blades": {
+    "title": "3 Women's Body Razor 3 Blades",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0751783465356",
+        "barcode": "'0751783465356",
+        "price": "560.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/66.png?v=1766734247",
+        "var_img": ""
+      }
+    ]
+  },
+  "men-body-razor-3-blades": {
+    "title": "Men Body Razor 3 Blades",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346528",
+        "barcode": "'0745178346528",
+        "price": "560.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/65.png?v=1766734210",
+        "var_img": ""
+      }
+    ]
+  },
+  "4-in-1-bleach-bowl-set": {
+    "title": "4 in 1 Bleach Bowl Set",
+    "type": "Accessories",
+    "tags": "Accessories, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "330.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/64.png?v=1766734186",
+        "var_img": ""
+      }
+    ]
+  },
+  "3-in-1-mask-bowl-set": {
+    "title": "3 in 1 Mask Bowl Set",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Kit, Palettes & Kits, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346238",
+        "barcode": "'0745178346238",
+        "price": "315.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/63.png?v=1766734151",
+        "var_img": ""
+      }
+    ]
+  },
+  "pedicure-nail-brush": {
+    "title": "Pedicure Nail Brush",
+    "type": "Brush",
+    "tags": "Accessories, Brush, Cat: Accessories, Nail",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345279",
+        "barcode": "'0745178345279",
+        "price": "150.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/54_5201d4e9-6b3f-4182-91f0-d2824797df7b.png?v=1766818935",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/55_0f9703fe-1223-4b9b-8072-afd106539374.png?v=1766818934",
+        "var_img": ""
+      }
+    ]
+  },
+  "bath-loofa": {
+    "title": "Bath Loofa",
+    "type": "Accessories",
+    "tags": "Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "0.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/61.png?v=1766734107",
+        "var_img": ""
+      }
+    ]
+  },
+  "shower-cap": {
+    "title": "Shower Cap",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'412434795764",
+        "barcode": "'412434795764",
+        "price": "205.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/60.png?v=1766733948",
+        "var_img": ""
+      }
+    ]
+  },
+  "cosmetics-2inl-sharpner": {
+    "title": "Cosmetics 2inl Sharpner",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Accessories, Makeup Accessories",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8850002525313",
+        "barcode": "'8850002525313",
+        "price": "135.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/59.png?v=1766733819",
+        "var_img": ""
+      }
+    ]
+  },
+  "nails-polish-wipes-24pcs": {
+    "title": "Nails Polish Wipes 24pcs",
+    "type": "Nail Care",
+    "tags": "Accessories, Cat: Accessories, Nail, Nail Polish",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346214",
+        "barcode": "'0745178346214",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/82_1d3282af-808f-4081-827e-f8078736e486.png?v=1766822300",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/83_a29ee7aa-a0cc-472e-ab1b-9b98a1294088.png?v=1766822299",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/84_32358719-00de-4e85-9384-1350ad0da224.png?v=1766822300",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/85_407a13da-bdeb-4966-bc52-77c664c20b1f.png?v=1766822299",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/86_eeda8167-2d7c-470f-b6ca-26d15acbc2f4.png?v=1766822301",
+        "var_img": ""
+      }
+    ]
+  },
+  "nails-polish-wipes-40pcs": {
+    "title": "Nails Polish Wipes 40pcs",
+    "type": "Nail Care",
+    "tags": "Accessories, Nail, Nail Polish",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "240.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/58.png?v=1766733503",
+        "var_img": ""
+      }
+    ]
+  },
+  "nail-polish-remover-120ml-60ml": {
+    "title": "Nail Polish Remover 120ML/60ml",
+    "type": "Nail Care",
+    "tags": "Cat: Accessories, Nail, Nail Polish",
+    "variants": [
+      {
+        "opt1_name": "Size",
+        "opt1_val": "60ml",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462355705",
+        "barcode": "'6665462355705",
+        "price": "135.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/56.png?v=1766733459",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "120ml",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6665462355606",
+        "barcode": "'6665462355606",
+        "price": "230.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "hair-wax": {
+    "title": "Hair Wax",
+    "type": "Hair Care",
+    "tags": "Cat: Personal Care, Hair",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346054",
+        "barcode": "'0745178346054",
+        "price": "500.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/55.png?v=1766733441",
+        "var_img": ""
+      }
+    ]
+  },
+  "charcoal-nose-mask": {
+    "title": "Charcoal Nose Mask",
+    "type": "Skin Care",
+    "tags": "Cat: Personal Care, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346184",
+        "barcode": "'0745178346184",
+        "price": "300.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/54.png?v=1766733386",
+        "var_img": ""
+      }
+    ]
+  },
+  "nail-tips": {
+    "title": "Nail Tips",
+    "type": "Nail Care",
+    "tags": "Accessories, Cat: Accessories, Nail",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'48227112878",
+        "barcode": "'48227112878",
+        "price": "470.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/49.png?v=1766732253",
+        "var_img": ""
+      }
+    ]
+  },
+  "nail-art-kit": {
+    "title": "Nail Art Kit",
+    "type": "Nail Care",
+    "tags": "Cat: Accessories, Kit, Nail, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6951825546584",
+        "barcode": "'6951825546584",
+        "price": "255.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/48.png?v=1766732262",
+        "var_img": ""
+      }
+    ]
+  },
+  "nail-glue": {
+    "title": "Nail Glue",
+    "type": "Nail Care",
+    "tags": "Accessories, Cat: Accessories, Nail",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345668",
+        "barcode": "'0745178345668",
+        "price": "85.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/50.png?v=1766732231",
+        "var_img": ""
+      }
+    ]
+  },
+  "easy-on-nails": {
+    "title": "Easy On Nails",
+    "type": "Nail Care",
+    "tags": "Cat: Accessories, Kit, Nail, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4455882277990",
+        "barcode": "'4455882277990",
+        "price": "220.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/91.png?v=1766823470",
+        "var_img": ""
+      }
+    ]
+  },
+  "eye-lash-glue": {
+    "title": "Eye Lash Glue",
+    "type": "Eye Makeup",
+    "tags": "Accessories, Cat: Accessories, Eye",
+    "variants": [
+      {
+        "opt1_name": "Colour",
+        "opt1_val": "Black",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6988756484326",
+        "barcode": "'6988756484326",
+        "price": "200.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/46.png?v=1766732023",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "Transparent",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "6988756484326-2",
+        "barcode": "'6988756484326",
+        "price": "200.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "regular-3d-eye-lashes": {
+    "title": "Regular 3D Eye Lashes",
+    "type": "Eye Makeup",
+    "tags": "Cat: Accessories, Eye",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6906019486085",
+        "barcode": "'6906019486085",
+        "price": "200.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/45.png?v=1766732009",
+        "var_img": ""
+      }
+    ]
+  },
+  "proffesional-eye-lashes": {
+    "title": "Proffesional Eye Lashes",
+    "type": "Eye Makeup",
+    "tags": "Cat: Accessories, Eye",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6988862585214",
+        "barcode": "'6988862585214",
+        "price": "390.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/44.png?v=1766731575",
+        "var_img": ""
+      }
+    ]
+  },
+  "eye-brow-thread": {
+    "title": "Eye Brow Thread",
+    "type": "Accessories",
+    "tags": "Accessories, Cat: Personal Care, Eye, Eyebrow",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346092",
+        "barcode": "'0745178346092",
+        "price": "300.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/80_d5011f75-d3c3-44b2-8a61-2c630b49f852.png?v=1766819930",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/81_6018c11d-d59d-4eb2-ae5f-949774d663b3.png?v=1766819930",
+        "var_img": ""
+      }
+    ]
+  },
+  "fast-dense-mascara": {
+    "title": "Fast Dense Mascara",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Mascara",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346016",
+        "barcode": "'0745178346016",
+        "price": "720.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/42.png?v=1766731520",
+        "var_img": ""
+      }
+    ]
+  },
+  "water-proof-mascara-1": {
+    "title": "Water Proof Mascara",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Mascara",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "670.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/41.png?v=1766731493",
+        "var_img": ""
+      }
+    ]
+  },
+  "water-proof-mascara": {
+    "title": "Water Proof Mascara",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Mascara",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6923859344115",
+        "barcode": "'6923859344115",
+        "price": "670.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/1.png?v=1766815493",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/2_811b4a96-89ed-44da-8266-03fe609b6743.png?v=1766815586",
+        "var_img": ""
+      }
+    ]
+  },
+  "khol-kajal-pencil": {
+    "title": "Khol Kajal Pencil",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Kajal",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346375",
+        "barcode": "'0745178346375",
+        "price": "550.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/92_55bd35ee-5f81-4964-8f18-e9389986c526.png?v=1766823883",
+        "var_img": ""
+      }
+    ]
+  },
+  "matt-kajal": {
+    "title": "Matt Kajal",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Kajal",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'4856512001570",
+        "barcode": "'4856512001570",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/87_b7d4f494-5188-40cb-b2a9-2da4ff09618e.png?v=1766820461",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/88_179c16e4-e529-45e4-9194-3ffdb73dc7ac.png?v=1766820460",
+        "var_img": ""
+      }
+    ]
+  },
+  "2-in-1-eyebrow-pencil": {
+    "title": "2 in 1 Eyebrow Pencil",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eyebrow",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345644",
+        "barcode": "'0745178345644",
+        "price": "200.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/52.png?v=1766818762",
+        "var_img": ""
+      }
+    ]
+  },
+  "marker-eye-liner": {
+    "title": "Marker Eye Liner",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eyeliner",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346498",
+        "barcode": "'0745178346498",
+        "price": "470.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/37.png?v=1766731136",
+        "var_img": ""
+      }
+    ]
+  },
+  "pen-eye-liner": {
+    "title": "Pen Eye Liner",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eyeliner",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345934",
+        "barcode": "'0745178345934",
+        "price": "550.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/1_copy.png?v=1766815294",
+        "var_img": ""
+      }
+    ]
+  },
+  "waterproof-eyeliner": {
+    "title": "Waterproof EyeLiner",
+    "type": "Eye Makeup",
+    "tags": "Eye, Eyeliner",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "700.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/35.png?v=1766731073",
+        "var_img": ""
+      }
+    ]
+  },
+  "gel-eye-liner": {
+    "title": "Gel Eye Liner",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eyeliner",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346245",
+        "barcode": "'0745178346245",
+        "price": "470.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/34.png?v=1766731044",
+        "var_img": ""
+      }
+    ]
+  },
+  "cake-eye-liner": {
+    "title": "Cake Eye Liner",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eyeliner",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8435464440703",
+        "barcode": "'8435464440703",
+        "price": "330.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/75_54e9e110-664e-48c4-b18b-7d819afa8a00.png?v=1766820013",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/76_0b99ef27-4fdf-4153-86ea-65657d92aeb6.png?v=1766820013",
+        "var_img": ""
+      }
+    ]
+  },
+  "39-colors-eye-shadow-kit": {
+    "title": "39 Colors Eye Shadow Kit",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eye Shadow, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346207",
+        "barcode": "'0745178346207",
+        "price": "2500.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/32.png?v=1766730956",
+        "var_img": ""
+      }
+    ]
+  },
+  "24-colors-eye-shadow-kit": {
+    "title": "24 Colors Eye Shadow Kit",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eye Shadow, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346511",
+        "barcode": "'0745178346511",
+        "price": "1445.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/31.png?v=1766730935",
+        "var_img": ""
+      }
+    ]
+  },
+  "16-colors-eye-shadow-kit": {
+    "title": "16 Colors Eye Shadow Kit",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eye Shadow, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346023",
+        "barcode": "'0745178346023",
+        "price": "765.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/30.png?v=1766730819",
+        "var_img": ""
+      }
+    ]
+  },
+  "6-colors-blusher": {
+    "title": "6 Colors Blusher",
+    "type": "Face Makeup",
+    "tags": "Blush On, Cat: Color Cosmetics, Face, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346108",
+        "barcode": "'0745178346108",
+        "price": "810.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/28.png?v=1766730781",
+        "var_img": ""
+      }
+    ]
+  },
+  "10-colors-blusher": {
+    "title": "10 Colors Blusher",
+    "type": "Face Makeup",
+    "tags": "Blush On, Cat: Color Cosmetics, Face, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346504",
+        "barcode": "'0745178346504",
+        "price": "1105.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/29.png?v=1766730800",
+        "var_img": ""
+      }
+    ]
+  },
+  "4-colors-blusher": {
+    "title": "4IN1 BLUSHER",
+    "type": "Face Makeup",
+    "tags": "Blush On, Cat: Color Cosmetics, Face, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6970975184026",
+        "barcode": "'6970975184026",
+        "price": "765.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/18_44a9d376-bac2-45a3-baf0-d056cd5c8513.png?v=1766816726",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/19_1f033f09-d2b7-492c-a956-ddc174559f4e.png?v=1766816725",
+        "var_img": ""
+      }
+    ]
+  },
+  "terracota-blush-on": {
+    "title": "Terracota Blush On",
+    "type": "Face Makeup",
+    "tags": "Blush On, Cat: Color Cosmetics, Face",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6970975182268",
+        "barcode": "'6970975182268",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/94_75527c75-579e-4b51-86e9-dfae42a38c51.png?v=1766825625",
+        "var_img": ""
+      }
+    ]
+  },
+  "3-colors-blush-contour": {
+    "title": "3 Colors Blush & Contour",
+    "type": "Face Makeup",
+    "tags": "Blush On, Cat: Color Cosmetics, Face, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346177",
+        "barcode": "'0745178346177",
+        "price": "670.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/5_fafb6c4c-0c08-4e70-8069-7c742c099056.png?v=1766815983",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/6_b625f142-831a-400d-83d0-a7265bd347d7.png?v=1766815982",
+        "var_img": ""
+      }
+    ]
+  },
+  "3-color-baking-highlighter": {
+    "title": "3 Color Baking Highlighter",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Highlighter, Kit, Palettes & Kits",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345972",
+        "barcode": "'0745178345972",
+        "price": "670.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/24.png?v=1766730589",
+        "var_img": ""
+      }
+    ]
+  },
+  "highlighter": {
+    "title": "Highlighter",
+    "type": "Face Makeup",
+    "tags": "Face, Highlighter",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "700.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/23.png?v=1766730571",
+        "var_img": ""
+      }
+    ]
+  },
+  "make-up-fixer-spray": {
+    "title": "Make Up Fixer Spray",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Skin care",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345859",
+        "barcode": "'0745178345859",
+        "price": "550.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/22.png?v=1766730542",
+        "var_img": ""
+      }
+    ]
+  },
+  "hd-primer": {
+    "title": "HD Primer",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Primer",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6971772480335",
+        "barcode": "'6971772480335",
+        "price": "1320.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/21.png?v=1766730489",
+        "var_img": ""
+      }
+    ]
+  },
+  "iconic": {
+    "title": "ICONIC ILLUMINATOR",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Highlighter",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345835",
+        "barcode": "'0745178345835",
+        "price": "550.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/20.png?v=1766730457",
+        "var_img": ""
+      }
+    ]
+  },
+  "pro-concealer": {
+    "title": "Pro Concealer",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Concealer, Face",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346566",
+        "barcode": "'0745178346566",
+        "price": "300.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/14_20a1ca36-73a7-4b4a-a158-d19fe2d8a825.png?v=1766816484",
+        "var_img": ""
+      }
+    ]
+  },
+  "tv-paint-stick": {
+    "title": "TV Paint Stick",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation, Paint Stick",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346221",
+        "barcode": "'0745178346221",
+        "price": "840.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/13_f0e82356-0c52-4cf1-a05e-cdbb6f0eaa95.png?v=1766816312",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/12_536746f4-c367-4d1d-bb8f-596c0cf676e6.png?v=1766816311",
+        "var_img": ""
+      }
+    ]
+  },
+  "cc-cream": {
+    "title": "CC Cream",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346290",
+        "barcode": "'0745178346290",
+        "price": "640.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/17.png?v=1766730352",
+        "var_img": ""
+      }
+    ]
+  },
+  "matte-mouse": {
+    "title": "MATTE MOUSSE",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6932511542165",
+        "barcode": "'6932511542165",
+        "price": "725.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/16.png?v=1766729370",
+        "var_img": ""
+      }
+    ]
+  },
+  "oil-control-pressed-powder": {
+    "title": "Oil Control Pressed Powder",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346399",
+        "barcode": "'0745178346399",
+        "price": "765.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/14.png?v=1766729327",
+        "var_img": ""
+      }
+    ]
+  },
+  "two-way-cake": {
+    "title": "Two Way Cake",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345958",
+        "barcode": "'0745178345958",
+        "price": "765.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/7_ab1d80f6-ed87-4e77-a9ec-7bd8eb32c61f.png?v=1766816105",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/8_389311fa-35fb-4a21-b1a3-a6e67cc5d26a.png?v=1766816106",
+        "var_img": ""
+      }
+    ]
+  },
+  "oil-free-pan-cake": {
+    "title": "Oil Free Pan Cake",
+    "type": "Face Makeup",
+    "tags": "Cat: Color Cosmetics, Face, Foundation",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'5060088985656",
+        "barcode": "'5060088985656",
+        "price": "595.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/12.png?v=1766729264",
+        "var_img": ""
+      }
+    ]
+  },
+  "peel-off-nail-polish": {
+    "title": "Peel off nail polish",
+    "type": "Nail Care",
+    "tags": "Cat: Color Cosmetics, Nail, Nail Polish",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'6952257009623",
+        "barcode": "'6952257009623",
+        "price": "145.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/11.png?v=1766729222",
+        "var_img": ""
+      }
+    ]
+  },
+  "glitter-nail-polish": {
+    "title": "Glitter Nail Polish",
+    "type": "Nail Care",
+    "tags": "Cat: Color Cosmetics, Nail, Nail Polish",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345255",
+        "barcode": "'0745178345255",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/10.png?v=1766729158",
+        "var_img": ""
+      }
+    ]
+  },
+  "nail-polish-large": {
+    "title": "Nail Polish large",
+    "type": "Nail Care",
+    "tags": "Cat: Color Cosmetics, Nail, Nail Polish",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0654561017504",
+        "barcode": "'0654561017504",
+        "price": "330.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/9.png?v=1766729116",
+        "var_img": ""
+      }
+    ]
+  },
+  "nail-polish-small": {
+    "title": "Nail polish small",
+    "type": "Nail Care",
+    "tags": "Cat: Color Cosmetics, Nail, Nail Polish",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'3003625004801",
+        "barcode": "'3003625004801",
+        "price": "215.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/8.png?v=1766729083",
+        "var_img": ""
+      }
+    ]
+  },
+  "powerfull-lipgloss": {
+    "title": "Powerfull lipgloss",
+    "type": "Lip Makeup",
+    "tags": "Cat: Color Cosmetics, Lip Gloss, Lips",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178346160",
+        "barcode": "'0745178346160",
+        "price": "550.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/7.png?v=1766728852",
+        "var_img": ""
+      }
+    ]
+  },
+  "24h-matte-lipgloss": {
+    "title": "24h matte Lipgloss",
+    "type": "Lip Makeup",
+    "tags": "Cat: Color Cosmetics, Lip Gloss, Lips",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345651",
+        "barcode": "'0745178345651",
+        "price": "470.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/96_d16003d1-9562-4973-991d-f29eaf36c17b.png?v=1766825834",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/95_d59bd39f-d923-4d53-a69c-1401618de049.png?v=1766825835",
+        "var_img": ""
+      }
+    ]
+  },
+  "stay-on-lipgloss": {
+    "title": "Stay On Lipgloss",
+    "type": "Lip Makeup",
+    "tags": "Lip Gloss, Lips",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "550.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/5.png?v=1766728776",
+        "var_img": ""
+      }
+    ]
+  },
+  "gliter-eyeliner": {
+    "title": "Gliter Eyeliner",
+    "type": "Eye Makeup",
+    "tags": "Eye, Eyeliner",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "530.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/4.png?v=1766728727",
+        "var_img": ""
+      }
+    ]
+  },
+  "lip-eye-pencil": {
+    "title": "Lip/eye pencil",
+    "type": "Lip Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Lips",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8969878525812",
+        "barcode": "'8969878525812",
+        "price": "130.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/3.png?v=1766728674",
+        "var_img": ""
+      }
+    ]
+  },
+  "matte-lipstick": {
+    "title": "Matte Lipstick",
+    "type": "Lip Makeup",
+    "tags": "Cat: Color Cosmetics, Lips, Lipstick",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'0745178345903",
+        "barcode": "'0745178345903",
+        "price": "550.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/2.png?v=1766728509",
+        "var_img": ""
+      }
+    ]
+  },
+  "classic-lipstick": {
+    "title": "Classic Lipstick",
+    "type": "Lip Makeup",
+    "tags": "Cat: Color Cosmetics, Lips, Lipstick",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8441536687327",
+        "barcode": "'8441536687327",
+        "price": "470.00",
+        "img": "",
+        "var_img": ""
+      }
+    ]
+  },
+  "glitter-eye-liner": {
+    "title": "Glitter Eye Liner",
+    "type": "Eye Makeup",
+    "tags": "Eye, Eyeliner",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "300.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/Screenshot2025-12-25130416.png?v=1766649878",
+        "var_img": ""
+      }
+    ]
+  },
+  "jumbo-pencil": {
+    "title": "Jumbo Pencil",
+    "type": "Eye Makeup",
+    "tags": "Cat: Color Cosmetics, Eye, Eyebrow",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'8969878525829",
+        "barcode": "'8969878525829",
+        "price": "220.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/Screenshot2025-12-25130228.png?v=1766649759",
+        "var_img": ""
+      }
+    ]
+  },
+  "lipstick": {
+    "title": "Lipstick",
+    "type": "Lip Makeup",
+    "tags": "Cat: Color Cosmetics, Lips, Lipstick",
+    "variants": [
+      {
+        "opt1_name": "Title",
+        "opt1_val": "Default Title",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "'5060088985649",
+        "barcode": "'5060088985649",
+        "price": "385.00",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/9_461f477d-4673-40b9-9d94-613ecd9ae5b1.png?v=1766816208",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/10_3459007a-908a-484b-bcf5-1c90f942d044.png?v=1766816209",
+        "var_img": ""
+      },
+      {
+        "opt1_name": "",
+        "opt1_val": "",
+        "opt2_name": "",
+        "opt2_val": "",
+        "sku": "",
+        "barcode": "",
+        "price": "",
+        "img": "https://cdn.shopify.com/s/files/1/0977/0274/0280/files/11_d4faf8e9-2816-45b7-ab3c-672575b09a92.png?v=1766816208",
+        "var_img": ""
+      }
+    ]
+  }
+}

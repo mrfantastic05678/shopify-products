@@ -1,0 +1,268 @@
+HANDLE: 2-in-1-eyebrow-pencil
+  Title: 2 in 1 Eyebrow Pencil
+  Current Status: active
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345644 | Price=200.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/52.pn
+  Assigned New Images (2):
+    - 01.jpg -> cosmee-eyebrow-pencil-waterproof-brown.jpg (Brown)
+    - 02.jpg -> cosmee-eyebrow-pencil-waterproof-white.jpg (White)
+
+HANDLE: 3-in-3-highlighter-blusher
+  Title: 3 In 3 Highlighter & Blusher
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178346733 | Price=640.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 36.jpg -> cosmee-baked-blusher-3-colors-trio.jpg (Trio Palette (Rose Shimmer / Satin Pink / Berry))
+
+HANDLE: 3d-sparking-eyeliner
+  Title: 3D Sparking Eyeliner
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='6971772480151 | Price=450.00 | Img=[NO IMAGE]
+  Assigned New Images (3):
+    - 33.jpg -> cosmee-3d-sparkling-eyeliner-shade-954-pink-glitter.jpg (Shade 954 (Pink Glitter))
+    - 34.jpg -> cosmee-3d-sparkling-eyeliner-shade-951-silver-glitter.jpg (Shade 951 (Silver Glitter))
+    - 35.jpg -> cosmee-3d-sparkling-eyeliner-shade-952-gold-glitter.jpg (Shade 952 (Gold Glitter))
+
+HANDLE: 4-in-1-facial-mask-tool-kit
+  Title: 4 In 1 Facial Mask Tool Kit
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345989 | Price=330.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 18.jpg -> cosmee-4-in-1-facial-mask-tool-kit-green.jpg (Green Set)
+
+HANDLE: aloevera-jar
+  Title: Aloevera Jar
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU= | Price=240.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/102.p
+  Assigned New Images (1):
+    - 19.jpg -> cosmee-vitamin-e-soothing-gel-aloe-vera-99.jpg (Aloe Vera 99% (Jar))
+
+HANDLE: anti-aging-serum
+  Title: Anti Aging Serum
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178346320 | Price=595.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 29.jpg -> cosmee-ageless-glow-anti-aging-serum-30ml.jpg (30ml / 1.0 oz)
+
+HANDLE: applicator-24pcs-549
+  Title: Applicator 24pcs 549
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345347 | Price=325.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 45.jpg -> cosmee-eyeshadow-applicator-jar-24pcs-549.jpg (Canister Jar 24pcs (549))
+
+HANDLE: applicator-brush-10pcs-405
+  Title: Applicator Brush 10pcs (405)
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345040 | Price=190.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 44.jpg -> cosmee-eyeshadow-sponge-applicator-pouch-pack.jpg (Pouch Pack (Blue Handles))
+
+HANDLE: beauty-blender-puff-999
+  Title: Beauty Blender Puff # 999
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='7603220190013 | Price=160.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 47.jpg -> cosmee-beauty-blender-puff-lemon-sponge-set-999.jpg (Lemon Blender Set (999 - Yellow))
+
+HANDLE: body-razor
+  Title: Body Razor
+  Current Status: active
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345637 | Price=280.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/69.pn
+  Assigned New Images (1):
+    - 21.jpg -> cosmee-body-razor-2-pcs-set-pink-green.jpg (2 Pcs Set (Pink & Mint Green))
+
+HANDLE: body-splash-155ml
+  Title: Body Splash 155ml
+  Current Status: draft
+  CSV Rows: 12
+    Row 1: Opt1=Scent:Island Mood | SKU='0745178345132 | Price=765.00 | Img=[NO IMAGE]
+    Row 2: Opt1=:Cherry Blossom | SKU='0745178345149 | Price=765.00 | Img=[NO IMAGE]
+    Row 3: Opt1=:Warm Night | SKU='0745178345156 | Price=765.00 | Img=[NO IMAGE]
+    Row 4: Opt1=:Dream Daisy | SKU='0745178345163 | Price=765.00 | Img=[NO IMAGE]
+    Row 5: Opt1=:Enjoy Life | SKU='0745178345170 | Price=765.00 | Img=[NO IMAGE]
+    Row 6: Opt1=:Be Myself | SKU='0745178345187 | Price=765.00 | Img=[NO IMAGE]
+    Row 7: Opt1=:Dancing Waters | SKU='0745178345194 | Price=765.00 | Img=[NO IMAGE]
+    Row 8: Opt1=:Tropical Woods | SKU='0745178345200 | Price=765.00 | Img=[NO IMAGE]
+    Row 9: Opt1=:Dream Chiffon | SKU='0745178345217 | Price=765.00 | Img=[NO IMAGE]
+    Row 10: Opt1=:Fly Away | SKU='0745178345224 | Price=765.00 | Img=[NO IMAGE]
+    Row 11: Opt1=:Poisonous Kiss | SKU='0745178345231 | Price=765.00 | Img=[NO IMAGE]
+    Row 12: Opt1=:Moon Light Shadow | SKU='0745178345248 | Price=765.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 46.jpg -> cosmee-body-splash-enjoy-life-155ml-bs111.jpg (Enjoy Life (155ml))
+
+HANDLE: compact-puff
+  Title: Compact Puff
+  Current Status: draft
+  CSV Rows: 2
+    Row 1: Opt1=Size:Small (2pcs) | SKU='0745178345026 | Price=160.00 | Img=[NO IMAGE]
+    Row 2: Opt1=:Large | SKU='0745178345033 | Price=160.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 22.jpg -> cosmee-compact-puff-round-pink-2pcs.jpg (Small (2pcs) - Pink Scalloped)
+
+HANDLE: face-capsules-90-s
+  Title: Face Capsules 90's
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345873 | Price=470.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 42.jpg -> cosmee-face-capsules-90s-gold.jpg (Gold Facial Capsules (90 Softgels))
+
+HANDLE: facial-band
+  Title: Facial Band
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU= | Price=390.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/81.pn
+  Assigned New Images (1):
+    - 32.jpg -> cosmee-senior-bath-turban-headband-pink-cs044.jpg (Senior Bath Turban (CS044 - Pink))
+
+HANDLE: facial-sponge
+  Title: Facial Sponge
+  Current Status: draft
+  CSV Rows: 6
+    Row 1: Opt1=Style:601 (2s) | SKU='0745178345323 | Price=470.00 | Img=[NO IMAGE]
+    Row 2: Opt1=:602 (2s Large) | SKU='0745178345330 | Price=470.00 | Img=[NO IMAGE]
+    Row 3: Opt1=:604 | SKU='0760322409001 | Price=470.00 | Img=[NO IMAGE]
+    Row 4: Opt1=:605 (8s Medium) | SKU='0745178345125 | Price=255.00 | Img=[NO IMAGE]
+    Row 5: Opt1=:606 (Single) | SKU='0745178345101 | Price=255.00 | Img=[NO IMAGE]
+    Row 6: Opt1=:777 (Regular 2pcs) | SKU='0745178345354 | Price=135.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 23.jpg -> cosmee-facial-sponge-slanted-peach-white-2pcs.jpg (Style 601 (2s) - Slanted Peach & White)
+
+HANDLE: make-up-puff-406
+  Title: Make Up Puff (406)
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345057 | Price=155.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 26.jpg -> cosmee-makeup-puff-pastel-wedges-4pcs-406.jpg (Pastel Wedges 4pcs (406))
+
+HANDLE: matte-lip-gloss
+  Title: Matte Lip Gloss
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='6971772480144 | Price=500.00 | Img=[NO IMAGE]
+  Assigned New Images (2):
+    - 39.jpg -> cosmee-stay-on-matte-lip-gloss-shade-934-nude.jpg (Shade 934 (Nude Terracotta))
+    - 40.jpg -> cosmee-stay-on-matte-lip-gloss-shade-939-red.jpg (Shade 939 (Classic Red))
+
+HANDLE: minibeauty-blender-5-s-994
+  Title: Minibeauty Blender 5's (994)
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345118 | Price=500.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 28.jpg -> cosmee-mini-beauty-blender-puff-5s-994.jpg (Mini 5's (994))
+
+HANDLE: nail-polish-large
+  Title: Nail Polish large
+  Current Status: active
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0654561017504 | Price=330.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/9.png
+  Assigned New Images (7):
+    - 03.jpg -> cosmee-nail-polish-large-shade-257.jpg (Shade 257 (Burgundy / Plum))
+    - 04.jpg -> cosmee-nail-polish-large-shade-253.jpg (Shade 253 (Baby Pink))
+    - 05.jpg -> cosmee-nail-polish-large-shade-bc-base-coat.jpg (Base Coat (B/C))
+    - 06.jpg -> cosmee-nail-polish-large-shade-255-gold.jpg (Shade 255 (Gold Shimmer))
+    - 07.jpg -> cosmee-nail-polish-large-shade-256-magenta.jpg (Shade 256 (Bright Magenta / Fuchsia))
+    - 08.jpg -> cosmee-nail-polish-large-shade-258-grey.jpg (Shade 258 (Slate Grey))
+    - 09.jpg -> cosmee-nail-polish-large-shade-tc-top-coat.jpg (Top Coat (T/C - Clear))
+
+HANDLE: nail-polish-small
+  Title: Nail polish small
+  Current Status: active
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='3003625004801 | Price=215.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/8.png
+  Assigned New Images (8):
+    - 10.jpg -> cosmee-nail-polish-small-shade-charcoal-grey.jpg (Shade Charcoal Grey)
+    - 11.jpg -> cosmee-nail-polish-small-shade-terracotta.jpg (Shade Terracotta)
+    - 12.jpg -> cosmee-nail-polish-small-shade-37-packaging.jpg (Shade 37 (Back Label))
+    - 13.jpg -> cosmee-nail-polish-small-shade-light-pink.jpg (Shade Light Pink)
+    - 14.jpg -> cosmee-nail-polish-small-shade-magenta.jpg (Shade Magenta)
+    - 15.jpg -> cosmee-nail-polish-small-shade-fuchsia.jpg (Shade Fuchsia Pink)
+    - 16.jpg -> cosmee-nail-polish-small-shade-red.jpg (Shade Scarlet Red)
+    - 17.jpg -> cosmee-nail-polish-small-shade-teal-green.jpg (Shade Teal Green)
+
+HANDLE: nails-polish-wipes-40pcs
+  Title: Nails Polish Wipes 40pcs
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU= | Price=240.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/58.pn
+  Assigned New Images (2):
+    - 37.jpg -> cosmee-nail-polish-remover-wipes-40pcs-rose-pink.jpg (Fragrance Floating Fruit Care (Pink - 40pcs))
+    - 38.jpg -> cosmee-nail-polish-remover-wipes-40pcs-green-apple.jpg (Green Apple Fruit Care (Green - 40pcs))
+
+HANDLE: oval-puff-401
+  Title: Oval Puff (401)
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345002 | Price=135.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 24.jpg -> cosmee-oval-puff-beige-2pcs-401.jpg (Oval 2pcs (Beige - 401))
+
+HANDLE: real-techniques-spongee-936
+  Title: Real Techniques Spongee (936)
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='79625014266 | Price=330.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 27.jpg -> cosmee-miracle-complexion-sponge-orange-936.jpg (Miracle Complexion Sponge (Orange - 936))
+
+HANDLE: round-puff-402
+  Title: Round Puff (402)
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345019 | Price=145.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 25.jpg -> cosmee-round-puff-cream-4pcs-402.jpg (Round 4pcs (Cream - 402))
+
+HANDLE: shower-net
+  Title: Shower Net
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178346115 | Price=275.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 20.jpg -> cosmee-shower-net-bath-loofah-sponge.jpg (Brown Multi-Color)
+
+HANDLE: skin-brightening-serum
+  Title: Skin Brightening Serum
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178345866 | Price=595.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 30.jpg -> cosmee-skin-brightening-serum-30ml.jpg (30ml / 1.0 oz)
+
+HANDLE: ultra-hd-professional-tv-paint-stick
+  Title: Ultra HD Professional TV Paint Stick
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU= | Price=840.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/93_32
+  Assigned New Images (1):
+    - 41.jpg -> cosmee-ultra-hd-tv-paint-stick-foundation.jpg (Ultra HD Foundation Stick)
+
+HANDLE: vitamin-c-serum
+  Title: Vitamin C Serum
+  Current Status: draft
+  CSV Rows: 1
+    Row 1: Opt1=Title:Default Title | SKU='0745178346313 | Price=595.00 | Img=[NO IMAGE]
+  Assigned New Images (1):
+    - 31.jpg -> cosmee-vitamin-c-serum-30ml.jpg (30ml / 1.0 oz)
+
+HANDLE: water-proof-mascara
+  Title: Water Proof Mascara
+  Current Status: active
+  CSV Rows: 2
+    Row 1: Opt1=Title:Default Title | SKU='6923859344115 | Price=670.00 | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/1.png
+    Row 2: Opt1=: | SKU= | Price= | Img=https://cdn.shopify.com/s/files/1/0977/0274/0280/files/2_811
+  Assigned New Images (1):
+    - 43.jpg -> cosmee-waterproof-long-lash-mascara-white.jpg (Long Lash Waterproof (White))
+

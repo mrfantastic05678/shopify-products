@@ -1,0 +1,220 @@
+=== nail-polish-large ===
+Title: Nail Polish large | Type: Nail Care | Tags: Cat: Color Cosmetics, Nail, Nail Polish
+  Var: Title=Default Title, SKU='0654561017504, Barcode='0654561017504, Price=330.00
+
+=== nail-polish-small ===
+Title: Nail polish small | Type: Nail Care | Tags: Cat: Color Cosmetics, Nail, Nail Polish
+  Var: Title=Default Title, SKU='3003625004801, Barcode='3003625004801, Price=215.00
+
+=== peel-off-nail-polish ===
+Title: Peel off nail polish | Type: Nail Care | Tags: Cat: Color Cosmetics, Nail, Nail Polish
+  Var: Title=Default Title, SKU='6952257009623, Barcode='6952257009623, Price=145.00
+
+=== glitter-nail-polish ===
+Title: Glitter Nail Polish | Type: Nail Care | Tags: Cat: Color Cosmetics, Nail, Nail Polish
+  Var: Title=Default Title, SKU='0745178345255, Barcode='0745178345255, Price=385.00
+
+=== 2-in-1-eyebrow-pencil ===
+Title: 2 in 1 Eyebrow Pencil | Type: Eye Makeup | Tags: Cat: Color Cosmetics, Eye, Eyebrow
+  Var: Title=Default Title, SKU='0745178345644, Barcode='0745178345644, Price=200.00
+
+=== lip-eye-pencil ===
+Title: Lip/eye pencil | Type: Lip Makeup | Tags: Cat: Color Cosmetics, Eye, Lips
+  Var: Title=Default Title, SKU='8969878525812, Barcode='8969878525812, Price=130.00
+
+=== jumbo-pencil ===
+Title: Jumbo Pencil | Type: Eye Makeup | Tags: Cat: Color Cosmetics, Eye, Eyebrow
+  Var: Title=Default Title, SKU='8969878525829, Barcode='8969878525829, Price=220.00
+
+=== 4-in-1-facial-mask-tool-kit ===
+Title: 4 In 1 Facial Mask Tool Kit | Type: Accessories | Tags: Cat: Accessories
+  Var: Title=Default Title, SKU='0745178345989, Barcode='0745178345989, Price=330.00
+
+=== shower-net ===
+Title: Shower Net | Type: Accessories | Tags: Cat: Accessories
+  Var: Title=Default Title, SKU='0745178346115, Barcode='0745178346115, Price=275.00
+
+=== bath-loofa ===
+Title: Bath Loofa | Type: Accessories | Tags: Accessories
+  Var: Title=Default Title, SKU=, Barcode=, Price=0.00
+
+=== facial-band ===
+Title: Facial Band | Type: Accessories | Tags: Accessories, Skin care
+  Var: Title=Default Title, SKU=, Barcode=, Price=390.00
+
+=== beauty-towel ===
+Title: Beauty Towel | Type: Accessories | Tags: Cat: Accessories
+  Var: Title=Default Title, SKU='6988885221229, Barcode='6988885221229, Price=205.00
+
+=== body-razor ===
+Title: Body Razor | Type: Accessories | Tags: Accessories, Cat: Accessories, Makeup Accessories
+  Var: Title=Default Title, SKU='0745178345637, Barcode='0745178345637, Price=280.00
+
+=== body-razor-1 ===
+Title: Body Razor | Type: Accessories | Tags: Accessories, Cat: Accessories, Makeup Accessories
+  Var: Title=Default Title, SKU=, Barcode=, Price=280.00
+  Var: =, SKU=, Barcode=, Price=
+
+=== real-techniques-spongee-936 ===
+Title: Real Techniques Spongee (936) | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='79625014266, Barcode='79625014266, Price=330.00
+
+=== minibeauty-blender-5-s-994 ===
+Title: Minibeauty Blender 5's (994) | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='0745178345118, Barcode='0745178345118, Price=500.00
+
+=== beauty-blender-puff-999 ===
+Title: Beauty Blender Puff # 999 | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='7603220190013, Barcode='7603220190013, Price=160.00
+
+=== make-up-puff-406 ===
+Title: Make Up Puff (406) | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='0745178345057, Barcode='0745178345057, Price=155.00
+
+=== round-puff-402 ===
+Title: Round Puff (402) | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='0745178345019, Barcode='0745178345019, Price=145.00
+
+=== oval-puff-401 ===
+Title: Oval Puff (401) | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='0745178345002, Barcode='0745178345002, Price=135.00
+
+=== compact-puff ===
+Title: Compact Puff | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Size=Small (2pcs), SKU='0745178345026, Barcode='0745178345026, Price=160.00
+  Var: =Large, SKU='0745178345033, Barcode='0745178345033, Price=160.00
+
+=== facial-sponge ===
+Title: Facial Sponge | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Style=601 (2s), SKU='0745178345323, Barcode='0745178345323, Price=470.00
+  Var: =602 (2s Large), SKU='0745178345330, Barcode='0745178345330, Price=470.00
+  Var: =604, SKU='0760322409001, Barcode='0760322409001, Price=470.00
+  Var: =605 (8s Medium), SKU='0745178345125, Barcode='0745178345125, Price=255.00
+  Var: =606 (Single), SKU='0745178345101, Barcode='0745178345101, Price=255.00
+  Var: =777 (Regular 2pcs), SKU='0745178345354, Barcode='0745178345354, Price=135.00
+
+=== controlling-puff ===
+Title: Controlling Puff | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Code=701 (4's), SKU='0745178345064, Barcode='0745178345064, Price=300.00
+  Var: =702 (8's), SKU='0745178345071, Barcode='0745178345071, Price=300.00
+  Var: =703 (2's), SKU='0745178345088, Barcode='0745178345088, Price=300.00
+  Var: =704 (4's), SKU='0745178345095, Barcode='0745178345095, Price=300.00
+
+=== vitamin-c-serum ===
+Title: Vitamin C Serum | Type: Skin Care | Tags: Cat: Personal Care
+  Var: Title=Default Title, SKU='0745178346313, Barcode='0745178346313, Price=595.00
+
+=== anti-aging-serum ===
+Title: Anti Aging Serum | Type: Skin Care | Tags: Cat: Personal Care
+  Var: Title=Default Title, SKU='0745178346320, Barcode='0745178346320, Price=595.00
+
+=== skin-brightening-serum ===
+Title: Skin Brightening Serum | Type: Skin Care | Tags: Cat: Personal Care
+  Var: Title=Default Title, SKU='0745178345866, Barcode='0745178345866, Price=595.00
+
+=== face-capsules-90-s ===
+Title: Face Capsules 90's | Type: Skin Care | Tags: Cat: Personal Care
+  Var: Title=Default Title, SKU='0745178345873, Barcode='0745178345873, Price=470.00
+
+=== nails-polish-wipes-40pcs ===
+Title: Nails Polish Wipes 40pcs | Type: Nail Care | Tags: Accessories, Nail, Nail Polish
+  Var: Title=Default Title, SKU=, Barcode=, Price=240.00
+
+=== nail-remover-wipes ===
+Title: Nail Remover Wipes | Type: Nail Care | Tags: Cat: Accessories
+  Var: Title=Default Title, SKU='6946051236019, Barcode='6946051236019, Price=215.00
+
+=== 3d-sparking-eyeliner ===
+Title: 3D Sparking Eyeliner | Type: Eye Makeup | Tags: Cat: Color Cosmetics
+  Var: Title=Default Title, SKU='6971772480151, Barcode='6971772480151, Price=450.00
+
+=== gliter-eyeliner ===
+Title: Gliter Eyeliner | Type: Eye Makeup | Tags: Eye, Eyeliner
+  Var: Title=Default Title, SKU=, Barcode=, Price=530.00
+
+=== glitter-eye-liner ===
+Title: Glitter Eye Liner | Type: Eye Makeup | Tags: Eye, Eyeliner
+  Var: Title=Default Title, SKU=, Barcode=, Price=300.00
+
+=== matte-lip-gloss ===
+Title: Matte Lip Gloss | Type: Lip Makeup | Tags: Cat: Color Cosmetics
+  Var: Title=Default Title, SKU='6971772480144, Barcode='6971772480144, Price=500.00
+
+=== stay-on-lipgloss ===
+Title: Stay On Lipgloss | Type: Lip Makeup | Tags: Lip Gloss, Lips
+  Var: Title=Default Title, SKU=, Barcode=, Price=550.00
+
+=== ultra-hd-professional-tv-paint-stick ===
+Title: Ultra HD Professional TV Paint Stick | Type: Face Makeup | Tags: Cat: Color Cosmetics, Face, Foundation, Paint Stick
+  Var: Title=Default Title, SKU=, Barcode=, Price=840.00
+
+=== ultra-hd-professional-tv-paint-stick-1 ===
+Title: Ultra HD Professional TV Paint Stick | Type: Face Makeup | Tags: Cat: Color Cosmetics, Face, Foundation, Paint Stick
+  Var: Title=Default Title, SKU=, Barcode=, Price=840.00
+
+=== tv-paint-stick ===
+Title: TV Paint Stick | Type: Face Makeup | Tags: Cat: Color Cosmetics, Face, Foundation, Paint Stick
+  Var: Title=Default Title, SKU='0745178346221, Barcode='0745178346221, Price=840.00
+  Var: =, SKU=, Barcode=, Price=
+
+=== water-proof-mascara ===
+Title: Water Proof Mascara | Type: Eye Makeup | Tags: Cat: Color Cosmetics, Eye, Mascara
+  Var: Title=Default Title, SKU='6923859344115, Barcode='6923859344115, Price=670.00
+  Var: =, SKU=, Barcode=, Price=
+
+=== water-proof-mascara-1 ===
+Title: Water Proof Mascara | Type: Eye Makeup | Tags: Cat: Color Cosmetics, Eye, Mascara
+  Var: Title=Default Title, SKU=, Barcode=, Price=670.00
+
+=== fast-dense-mascara ===
+Title: Fast Dense Mascara | Type: Eye Makeup | Tags: Cat: Color Cosmetics, Eye, Mascara
+  Var: Title=Default Title, SKU='0745178346016, Barcode='0745178346016, Price=720.00
+
+=== 3-in-3-highlighter-blusher ===
+Title: 3 In 3 Highlighter & Blusher | Type: Face Makeup | Tags: Cat: Color Cosmetics
+  Var: Title=Default Title, SKU='0745178346733, Barcode='0745178346733, Price=640.00
+
+=== 3-colors-blush-contour ===
+Title: 3 Colors Blush & Contour | Type: Face Makeup | Tags: Blush On, Cat: Color Cosmetics, Face, Kit, Palettes & Kits
+  Var: Title=Default Title, SKU='0745178346177, Barcode='0745178346177, Price=670.00
+  Var: =, SKU=, Barcode=, Price=
+
+=== 4-colors-blusher ===
+Title: 4IN1 BLUSHER | Type: Face Makeup | Tags: Blush On, Cat: Color Cosmetics, Face, Kit, Palettes & Kits
+  Var: Title=Default Title, SKU='6970975184026, Barcode='6970975184026, Price=765.00
+  Var: =, SKU=, Barcode=, Price=
+
+=== applicator-24pcs-549 ===
+Title: Applicator 24pcs 549 | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='0745178345347, Barcode='0745178345347, Price=325.00
+
+=== applicator-brush-10pcs-405 ===
+Title: Applicator Brush 10pcs (405) | Type: Accessories | Tags: Cat: Makeup Puff
+  Var: Title=Default Title, SKU='0745178345040, Barcode='0745178345040, Price=190.00
+
+=== body-splash-155ml ===
+Title: Body Splash 155ml | Type: Skin Care | Tags: Cat: Body Splash
+  Var: Scent=Island Mood, SKU='0745178345132, Barcode='0745178345132, Price=765.00
+  Var: =Cherry Blossom, SKU='0745178345149, Barcode='0745178345149, Price=765.00
+  Var: =Warm Night, SKU='0745178345156, Barcode='0745178345156, Price=765.00
+  Var: =Dream Daisy, SKU='0745178345163, Barcode='0745178345163, Price=765.00
+  Var: =Enjoy Life, SKU='0745178345170, Barcode='0745178345170, Price=765.00
+  Var: =Be Myself, SKU='0745178345187, Barcode='0745178345187, Price=765.00
+  Var: =Dancing Waters, SKU='0745178345194, Barcode='0745178345194, Price=765.00
+  Var: =Tropical Woods, SKU='0745178345200, Barcode='0745178345200, Price=765.00
+  Var: =Dream Chiffon, SKU='0745178345217, Barcode='0745178345217, Price=765.00
+  Var: =Fly Away, SKU='0745178345224, Barcode='0745178345224, Price=765.00
+  Var: =Poisonous Kiss, SKU='0745178345231, Barcode='0745178345231, Price=765.00
+  Var: =Moon Light Shadow, SKU='0745178345248, Barcode='0745178345248, Price=765.00
+
+=== aloevera-jar ===
+Title: Aloevera Jar | Type: Skin Care | Tags: Skin care
+  Var: Title=Default Title, SKU=, Barcode=, Price=240.00
+
+=== aloevera-gel ===
+Title: Aloevera Gel | Type: Skin Care | Tags: Cat: Personal Care, Skin care
+  Var: Size=80g, SKU='8908010016030, Barcode='8908010016030, Price=210.00
+  Var: =120ml, SKU='8908010017754, Barcode='8908010017754, Price=300.00
+  Var: =260ml, SKU='6955702401386, Barcode='6955702401386, Price=420.00
+  Var: =300ml, SKU='6936929415547, Barcode='6936929415547, Price=330.00
+

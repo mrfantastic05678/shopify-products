@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cosmee Cosmetics - Visual Catalog & Image Renaming Manifest</title>
+<style>
+  :root {
+    --bg-color: #0d1117;
+    --card-bg: #161b22;
+    --border-color: #30363d;
+    --text-primary: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #e05297;
+    --accent-hover: #f368a8;
+    --badge-bg: rgba(224, 82, 151, 0.15);
+    --badge-border: rgba(224, 82, 151, 0.4);
+    --success: #3fb950;
+    --code-bg: #090d13;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.5;
+    padding: 30px 20px;
+  }
+  .header {
+    max-width: 1400px;
+    margin: 0 auto 30px auto;
+    padding: 24px;
+    background: linear-gradient(135deg, #1c1826 0%, #161b22 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .header h1 span {
+    color: var(--accent);
+  }
+  .header p {
+    color: var(--text-muted);
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .stats-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+  }
+  .stat-pill {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  .stat-pill b { color: var(--accent); font-weight: 700; }
+  .filter-controls {
+    max-width: 1400px;
+    margin: 0 auto 24px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+  .filter-btn {
+    background: var(--card-bg);
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+  }
+  .card-img-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  .card:hover .card-img {
+    transform: scale(1.05);
+  }
+  .badge-id {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(13, 17, 23, 0.85);
+    backdrop-filter: blur(4px);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+  }
+  .badge-cat {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--badge-bg);
+    border: 1px solid var(--badge-border);
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 12px;
+  }
+  .card-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+  }
+  .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.3;
+  }
+  .meta-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 13px;
+  }
+  .meta-label {
+    color: var(--text-muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  .meta-value {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  .proposed-box {
+    background: var(--code-bg);
+    border: 1px solid #21262d;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px;
+    color: #58a6ff;
+    word-break: break-all;
+  }
+  .notes-box {
+    font-size: 12px;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.03);
+    padding: 8px 10px;
+    border-radius: 6px;
+    border-left: 3px solid var(--accent);
+  }
+  .variant-tag {
+    display: inline-block;
+    background: rgba(63, 185, 80, 0.15);
+    border: 1px solid rgba(63, 185, 80, 0.4);
+    color: var(--success);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span>Cosmee</span> Catalog Image & Variant Review Dashboard</h1>
+  <p>Visual identification and file-renaming plan for all 47 Cosmee product photos cross-referenced with <code>Cosmee_products_export.csv</code>.</p>
+  
+  <div class="stats-bar">
+    <div class="stat-pill">Total Images: <b>47</b></div>
+    <div class="stat-pill">Nail Care: <b>17</b> (Large Polish, Small Polish, Wipes)</div>
+    <div class="stat-pill">Accessories & Sponges: <b>15</b> (Puffs, Kits, Loofah, Razors)</div>
+    <div class="stat-pill">Eye Makeup: <b>6</b> (Eyebrow Pencils, 3D Eyeliners, Mascara)</div>
+    <div class="stat-pill">Skin Care: <b>6</b> (Serums, Aloe Vera Gel, Face Capsules, Splash)</div>
+    <div class="stat-pill">Face Makeup: <b>3</b> (TV Paint Stick, Baked Blusher)</div>
+    <div class="stat-pill">Lip Makeup: <b>2</b> (Stay On Matte Lip Gloss)</div>
+  </div>
+</div>
+
+<div class="filter-controls">
+  <span style="color: var(--text-muted); font-size: 13px; font-weight: 600;">Filter Category:</span>
+  <button class="filter-btn active" onclick="filterCat('all')">All (47)</button>
+  <button class="filter-btn" onclick="filterCat('Nail Care')">Nail Care (17)</button>
+  <button class="filter-btn" onclick="filterCat('Accessories')">Accessories & Puffs (15)</button>
+  <button class="filter-btn" onclick="filterCat('Eye Makeup')">Eye Makeup (6)</button>
+  <button class="filter-btn" onclick="filterCat('Skin Care')">Skin Care (6)</button>
+  <button class="filter-btn" onclick="filterCat('Face Makeup')">Face Makeup (3)</button>
+  <button class="filter-btn" onclick="filterCat('Lip Makeup')">Lip Makeup (2)</button>
+</div>
+
+<div class="grid" id="productGrid">
+
+  <div class="card" data-cat="Eye Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#01 • 01.jpg</span>
+      <span class="badge-cat">Eye Makeup</span>
+      <img src="Cosmee Products images/01.jpg" alt="2 in 1 Eyebrow Pencil / Lip/Eye Pencil" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">2 in 1 Eyebrow Pencil / Lip/Eye Pencil</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>2-in-1-eyebrow-pencil</code> (SKU: 0745178345644)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Brown</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-eyebrow-pencil-waterproof-brown.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Eyebrow Pencil Waterproof Longlasting - Brown shade
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Eye Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#02 • 02.jpg</span>
+      <span class="badge-cat">Eye Makeup</span>
+      <img src="Cosmee Products images/02.jpg" alt="2 in 1 Eyebrow Pencil / Lip/Eye Pencil" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">2 in 1 Eyebrow Pencil / Lip/Eye Pencil</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>2-in-1-eyebrow-pencil</code> (SKU: 0745178345644)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">White</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-eyebrow-pencil-waterproof-white.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Eyebrow Pencil Waterproof Longlasting - White shade
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#03 • 03.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/03.jpg" alt="Nail Polish large" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail Polish large</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-large</code> (SKU: 0654561017504)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 257 (Burgundy / Plum)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-large-shade-257.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: CERATE NAIL POLISH 257 | Barcode: 88313137871573
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#04 • 04.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/04.jpg" alt="Nail Polish large" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail Polish large</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-large</code> (SKU: 0654561017504)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 253 (Baby Pink)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-large-shade-253.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Cosmee 253 | Barcode: 89333478711337
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#05 • 05.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/05.jpg" alt="Nail Polish large" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail Polish large</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-large</code> (SKU: 0654561017504)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Base Coat (B/C)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-large-shade-bc-base-coat.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Cosmee B/C (Base Coat / Light Blush Pink)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#06 • 06.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/06.jpg" alt="Nail Polish large" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail Polish large</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-large</code> (SKU: 0654561017504)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 255 (Gold Shimmer)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-large-shade-255-gold.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Cosmee 255 (Gold Shimmer / Metallic)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#07 • 07.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/07.jpg" alt="Nail Polish large" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail Polish large</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-large</code> (SKU: 0654561017504)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 256 (Bright Magenta / Fuchsia)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-large-shade-256-magenta.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Cosmee 256 (Bright Magenta Cream)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#08 • 08.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/08.jpg" alt="Nail Polish large" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail Polish large</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-large</code> (SKU: 0654561017504)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 258 (Slate Grey)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-large-shade-258-grey.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Cosmee 258 (Slate Grey Cream)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#09 • 09.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/09.jpg" alt="Nail Polish large" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail Polish large</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-large</code> (SKU: 0654561017504)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Top Coat (T/C - Clear)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-large-shade-tc-top-coat.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Cosmee T/C (Clear Gloss Top Coat)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#10 • 10.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/10.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade Charcoal Grey</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-charcoal-grey.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Small Nail Polish - Deep Charcoal / Dark Slate Grey
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#11 • 11.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/11.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade Terracotta</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-terracotta.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Small Nail Polish - Terracotta / Rust Brown
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#12 • 12.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/12.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 37 (Back Label)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-37-packaging.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Back label: Cosmee SMALL NAIL POLISH 37 | Barcode: 3003625004801 (Direct match to CSV SKU!)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#13 • 13.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/13.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade Light Pink</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-light-pink.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Small Nail Polish - Soft Baby / Pastel Pink
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#14 • 14.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/14.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade Magenta</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-magenta.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Small Nail Polish - Vibrant Magenta / Purple Pink
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#15 • 15.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/15.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade Fuchsia Pink</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-fuchsia.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Small Nail Polish - Bright Hot Pink / Fuchsia
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#16 • 16.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/16.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade Scarlet Red</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-red.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Small Nail Polish - Vibrant Scarlet Red
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#17 • 17.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/17.jpg" alt="Nail polish small" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nail polish small</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nail-polish-small</code> (SKU: 3003625004801)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade Teal Green</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-small-shade-teal-green.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cosmee Small Nail Polish - Emerald / Teal Green
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#18 • 18.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/18.jpg" alt="4 In 1 Facial Mask Tool Kit" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">4 In 1 Facial Mask Tool Kit</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>4-in-1-facial-mask-tool-kit</code> (SKU: 0745178345989)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Green Set</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-4-in-1-facial-mask-tool-kit-green.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Card: 4 IN 1 Facial Mask Tool Kit (Mask Bowl + Stick + Brush + Spoon)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Skin Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#19 • 19.jpg</span>
+      <span class="badge-cat">Skin Care</span>
+      <img src="Cosmee Products images/19.jpg" alt="Aloevera Jar / Aloevera Gel" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Aloevera Jar / Aloevera Gel</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>aloevera-jar</code> (SKU: N/A)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Aloe Vera 99% (Jar)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-vitamin-e-soothing-gel-aloe-vera-99.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Lid: Cosmee VITAMIN E SOOTHING GEL - Aloe Vera Gel 99%
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#20 • 20.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/20.jpg" alt="Shower Net / Bath Loofa" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Shower Net / Bath Loofa</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>shower-net</code> (SKU: 0745178346115)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Brown Multi-Color</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-shower-net-bath-loofah-sponge.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Brown shower net loofah with interior cleansing foam cubes
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#21 • 21.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/21.jpg" alt="Body Razor" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Body Razor</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>body-razor</code> (SKU: 0745178345637)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">2 Pcs Set (Pink & Mint Green)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-body-razor-2-pcs-set-pink-green.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Card: Cosmee BODY RAZOR - Stainless Safety Cover - 2 Pcs/Set
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#22 • 22.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/22.jpg" alt="Compact Puff / Round Puff" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Compact Puff / Round Puff</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>compact-puff</code> (SKU: 0745178345026)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Small (2pcs) - Pink Scalloped</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-compact-puff-round-pink-2pcs.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> 2 round pink compact makeup sponges with scalloped edges
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#23 • 23.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/23.jpg" alt="Facial Sponge / Controlling Puff" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Facial Sponge / Controlling Puff</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>facial-sponge</code> (SKU: 0745178345323)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Style 601 (2s) - Slanted Peach & White</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-facial-sponge-slanted-peach-white-2pcs.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> 2 slanted cylinder makeup blending sponges (Peach & White)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#24 • 24.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/24.jpg" alt="Oval Puff (401) / Facial Sponge" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Oval Puff (401) / Facial Sponge</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>oval-puff-401</code> (SKU: 0745178345002)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Oval 2pcs (Beige - 401)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-oval-puff-beige-2pcs-401.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> 2 flat oval/egg makeup powder puffs in natural beige
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#25 • 25.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/25.jpg" alt="Round Puff (402) / Controlling Puff" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Round Puff (402) / Controlling Puff</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>round-puff-402</code> (SKU: 0745178345019)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Round 4pcs (Cream - 402)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-round-puff-cream-4pcs-402.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> 4 round cosmetic powder puffs in cream white
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#26 • 26.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/26.jpg" alt="Make Up Puff (406)" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Make Up Puff (406)</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>make-up-puff-406</code> (SKU: 0745178345057)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Pastel Wedges 4pcs (406)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-makeup-puff-pastel-wedges-4pcs-406.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> 4 diamond wedge makeup sponges in pastel blue, yellow, white, and pink
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#27 • 27.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/27.jpg" alt="Real Techniques Spongee (936)" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Real Techniques Spongee (936)</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>real-techniques-spongee-936</code> (SKU: 79625014266)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Miracle Complexion Sponge (Orange - 936)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-miracle-complexion-sponge-orange-936.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Box: Cosmee miracle complexion sponge (high definition results)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#28 • 28.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/28.jpg" alt="Minibeauty Blender 5's (994)" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Minibeauty Blender 5's (994)</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>minibeauty-blender-5-s-994</code> (SKU: 0745178345118)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Mini 5's (994)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-mini-beauty-blender-puff-5s-994.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Box: Cosmee PUFF Beauty Blender - CLOSE SKIN POWDER PUFF - MINI 5s
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Skin Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#29 • 29.jpg</span>
+      <span class="badge-cat">Skin Care</span>
+      <img src="Cosmee Products images/29.jpg" alt="Anti Aging Serum" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Anti Aging Serum</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>anti-aging-serum</code> (SKU: 0745178346320)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">30ml / 1.0 oz</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-ageless-glow-anti-aging-serum-30ml.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Box: Ageless Glow Revitalizing ANTI AGING SERUM - Bakuchiol + Peptide 30ml
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Skin Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#30 • 30.jpg</span>
+      <span class="badge-cat">Skin Care</span>
+      <img src="Cosmee Products images/30.jpg" alt="Skin Brightening Serum" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Skin Brightening Serum</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>skin-brightening-serum</code> (SKU: 0745178345866)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">30ml / 1.0 oz</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-skin-brightening-serum-30ml.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Box: Rejuvenate Revolution Rebirth Skin Brightening Serum - Dark Spot Corrector
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Skin Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#31 • 31.jpg</span>
+      <span class="badge-cat">Skin Care</span>
+      <img src="Cosmee Products images/31.jpg" alt="Vitamin C Serum" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Vitamin C Serum</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>vitamin-c-serum</code> (SKU: 0745178346313)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">30ml / 1.0 oz</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-vitamin-c-serum-30ml.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Box: Vitamin C Serum - L-Ascorbic & Ferulic Hyaluronic Acid 30ml
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#32 • 32.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/32.jpg" alt="Facial Band / Beauty Towel" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Facial Band / Beauty Towel</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>facial-band</code> (SKU: N/A)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Senior Bath Turban (CS044 - Pink)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-senior-bath-turban-headband-pink-cs044.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Box: Cosmee SENIOR BATH TURBAN - ITEM NO. CS044 (Pink headband with yellow piping)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Eye Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#33 • 33.jpg</span>
+      <span class="badge-cat">Eye Makeup</span>
+      <img src="Cosmee Products images/33.jpg" alt="3D Sparking Eyeliner" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">3D Sparking Eyeliner</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>3d-sparking-eyeliner</code> (SKU: 6971772480151)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 954 (Pink Glitter)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-3d-sparkling-eyeliner-shade-954-pink-glitter.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Shade 954 | Tube: Cosmee 3D SPARKLING eyeliner ART NO. CS007
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Eye Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#34 • 34.jpg</span>
+      <span class="badge-cat">Eye Makeup</span>
+      <img src="Cosmee Products images/34.jpg" alt="3D Sparking Eyeliner" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">3D Sparking Eyeliner</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>3d-sparking-eyeliner</code> (SKU: 6971772480151)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 951 (Silver Glitter)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-3d-sparkling-eyeliner-shade-951-silver-glitter.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Shade 951 | Tube: Cosmee 3D SPARKLING eyeliner ART NO. CS007
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Eye Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#35 • 35.jpg</span>
+      <span class="badge-cat">Eye Makeup</span>
+      <img src="Cosmee Products images/35.jpg" alt="3D Sparking Eyeliner" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">3D Sparking Eyeliner</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>3d-sparking-eyeliner</code> (SKU: 6971772480151)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 952 (Gold Glitter)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-3d-sparkling-eyeliner-shade-952-gold-glitter.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: Shade 952 | Tube: Cosmee 3D SPARKLING eyeliner ART NO. CS007
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Face Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#36 • 36.jpg</span>
+      <span class="badge-cat">Face Makeup</span>
+      <img src="Cosmee Products images/36.jpg" alt="3 In 3 Highlighter & Blusher / 3 Colors Blush & Contour" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">3 In 3 Highlighter & Blusher / 3 Colors Blush & Contour</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>3-in-3-highlighter-blusher</code> (SKU: 0745178346733)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Trio Palette (Rose Shimmer / Satin Pink / Berry)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-baked-blusher-3-colors-trio.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Compact lid: Cosmee Baked Blusher Enriched with Vitamin E
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#37 • 37.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/37.jpg" alt="Nails Polish Wipes 40pcs" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nails Polish Wipes 40pcs</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nails-polish-wipes-40pcs</code> (SKU: N/A)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Fragrance Floating Fruit Care (Pink - 40pcs)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-remover-wipes-40pcs-rose-pink.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Tub: Fragrance Floating FRUIT CARE - Nail Polish Remover Wipes 40pcs (Pink lid)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Nail Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#38 • 38.jpg</span>
+      <span class="badge-cat">Nail Care</span>
+      <img src="Cosmee Products images/38.jpg" alt="Nails Polish Wipes 40pcs" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Nails Polish Wipes 40pcs</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>nails-polish-wipes-40pcs</code> (SKU: N/A)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Green Apple Fruit Care (Green - 40pcs)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-nail-polish-remover-wipes-40pcs-green-apple.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Tub: Green Apple FRUIT CARE - Nail Polish Remover Wipes 40pcs (Green lid)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Lip Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#39 • 39.jpg</span>
+      <span class="badge-cat">Lip Makeup</span>
+      <img src="Cosmee Products images/39.jpg" alt="Matte Lip Gloss / Stay On Lipgloss" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Matte Lip Gloss / Stay On Lipgloss</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>matte-lip-gloss</code> (SKU: 6971772480144)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 934 (Nude Terracotta)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-stay-on-matte-lip-gloss-shade-934-nude.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: 934 | Barcode: 6971772480144 (Matches CSV SKU!) | Tube: ART NO. CS012
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Lip Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#40 • 40.jpg</span>
+      <span class="badge-cat">Lip Makeup</span>
+      <img src="Cosmee Products images/40.jpg" alt="Matte Lip Gloss / Stay On Lipgloss" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Matte Lip Gloss / Stay On Lipgloss</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>matte-lip-gloss</code> (SKU: 6971772480144)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Shade 939 (Classic Red)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-stay-on-matte-lip-gloss-shade-939-red.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Cap sticker: 939 | Barcode: 6971772480144 (Matches CSV SKU!) | Tube: ART NO. CS012
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Face Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#41 • 41.jpg</span>
+      <span class="badge-cat">Face Makeup</span>
+      <img src="Cosmee Products images/41.jpg" alt="Ultra HD Professional TV Paint Stick" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Ultra HD Professional TV Paint Stick</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>ultra-hd-professional-tv-paint-stick</code> (SKU: 0745178346221)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Ultra HD Foundation Stick</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-ultra-hd-tv-paint-stick-foundation.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Black stick tube with stars pattern: Cosmee ULTRA HD
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Skin Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#42 • 42.jpg</span>
+      <span class="badge-cat">Skin Care</span>
+      <img src="Cosmee Products images/42.jpg" alt="Face Capsules 90's / Gold Facial Capsule" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Face Capsules 90's / Gold Facial Capsule</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>face-capsules-90-s</code> (SKU: 0745178345873)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Gold Facial Capsules (90 Softgels)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-face-capsules-90s-gold.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Bottle: 90 softgelx0.4g COSMEE FACE CAPSULES (Sealed for your protection)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Eye Makeup">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#43 • 43.jpg</span>
+      <span class="badge-cat">Eye Makeup</span>
+      <img src="Cosmee Products images/43.jpg" alt="Water Proof Mascara" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Water Proof Mascara</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>water-proof-mascara</code> (SKU: 6923859344115)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Long Lash Waterproof (White)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-waterproof-long-lash-mascara-white.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> White tube: Cosmee LONG LASH MASCARA WATER PROOF with open applicator brush
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#44 • 44.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/44.jpg" alt="Applicator Brush 10pcs (405) / Applicator 24pcs 549" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Applicator Brush 10pcs (405) / Applicator 24pcs 549</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>applicator-brush-10pcs-405</code> (SKU: 0745178345040)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Pouch Pack (Blue Handles)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-eyeshadow-sponge-applicator-pouch-pack.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Resealable pouch: Cosmee POWDER PUFF - Dual-ended eyeshadow applicators with blue transparent stems
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#45 • 45.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/45.jpg" alt="Applicator 24pcs 549" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Applicator 24pcs 549</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>applicator-24pcs-549</code> (SKU: 0745178345347)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Canister Jar 24pcs (549)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-eyeshadow-applicator-jar-24pcs-549.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Clear round cylinder tub: BEAUTY SOLUTIONS BY COSMEE COSMETICS with dual-ended sponge applicators
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Skin Care">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#46 • 46.jpg</span>
+      <span class="badge-cat">Skin Care</span>
+      <img src="Cosmee Products images/46.jpg" alt="Body Splash 155ml" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Body Splash 155ml</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>body-splash-155ml</code> (SKU: 0745178345170)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Enjoy Life (155ml)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-body-splash-enjoy-life-155ml-bs111.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Bottle: Cosmee Enjoy LIFE body splash 155 ML/5.2 FL OZ BS111 (Cyan/Teal liquid - Matches CSV Variant!)
+      </div>
+    </div>
+  </div>
+
+  <div class="card" data-cat="Accessories">
+    <div class="card-img-wrapper">
+      <span class="badge-id">#47 • 47.jpg</span>
+      <span class="badge-cat">Accessories</span>
+      <img src="Cosmee Products images/47.jpg" alt="Beauty Blender Puff # 999" class="card-img" loading="lazy">
+    </div>
+    <div class="card-body">
+      <div class="card-title">Beauty Blender Puff # 999</div>
+      <div class="meta-row">
+        <span class="meta-label">Matched Handle & SKU</span>
+        <span class="meta-value"><code>beauty-blender-puff-999</code> (SKU: 7603220190013)</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Target Variant / Shade</span>
+        <div><span class="variant-tag">Lemon Blender Set (999 - Yellow)</span></div>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">Proposed New Filename</span>
+        <div class="proposed-box">cosmee-beauty-blender-puff-lemon-sponge-set-999.jpg</div>
+      </div>
+      <div class="notes-box">
+        <b>Audit Note:</b> Box: Cosmee PUFF Beauty Blender - CLOSE SKIN POWDER PUFF (Yellow lemon shaped blender + small egg blender)
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function filterCat(cat) {
+  const cards = document.querySelectorAll('.card');
+  const buttons = document.querySelectorAll('.filter-btn');
+  buttons.forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+
+  cards.forEach(card => {
+    if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+      card.style.display = 'flex';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+
+</body>
+</html>

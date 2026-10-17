@@ -1,0 +1,196 @@
+  1. hair-cutting-comb                   | Hair Cutting Comb | Type: Hair Care
+  2. nail-remover-wipes                  | Nail Remover Wipes | Type: Nail Care
+  3. wooden-hair-comb                    | Wooden Hair Comb | Type: Hair Care
+  4. 2-in-1-hair-comb                    | 2 In 1 Hair Comb | Type: Hair Care
+  5. afro-comb                           | Afro Comb | Type: Hair Care
+  6. professional-hair-dye-brush         | Professional Hair Dye Brush | Type: Accessories
+  7. 4-in-1-facial-mask-tool-kit         | 4 In 1 Facial Mask Tool Kit | Type: Accessories
+  8. shower-net                          | Shower Net | Type: Accessories
+  9. beauty-towel                        | Beauty Towel | Type: Accessories
+ 10. real-techniques-spongee-936         | Real Techniques Spongee (936) | Type: Accessories
+ 11. beauty-blender-puff-999             | Beauty Blender Puff # 999 | Type: Accessories
+ 12. minibeauty-blender-5-s-994          | Minibeauty Blender 5's (994) | Type: Accessories
+ 13. applicator-24pcs-549                | Applicator 24pcs 549 | Type: Accessories
+ 14. make-up-puff-406                    | Make Up Puff (406) | Type: Accessories
+ 15. applicator-brush-10pcs-405          | Applicator Brush 10pcs (405) | Type: Accessories
+ 16. round-puff-402                      | Round Puff (402) | Type: Accessories
+ 17. oval-puff-401                       | Oval Puff (401) | Type: Accessories
+ 18. vitamin-c-serum                     | Vitamin C Serum | Type: Skin Care
+ 19. anti-aging-serum                    | Anti Aging Serum | Type: Skin Care
+ 20. skin-brightening-serum              | Skin Brightening Serum | Type: Skin Care
+ 21. face-capsules-90-s                  | Face Capsules 90's | Type: Skin Care
+ 22. hard-bean-wax-200g                  | Hard Bean Wax 200g | Type: Skin Care
+ 23. multi-purpose-brush-small           | Multi Purpose Brush Small | Type: Brush
+ 24. professional-makeup-brush           | Professional Makeup Brush | Type: Brush
+ 25. makeup-brush-cs20                   | Makeup Brush Cs20 | Type: Brush
+ 26. makeup-brush-cs19                   | Makeup Brush Cs19 | Type: Brush
+ 27. makeup-brush-cs18                   | Makeup Brush Cs18 | Type: Brush
+ 28. makeup-brush-cs17                   | Makeup Brush Cs17 | Type: Brush
+ 29. makeup-brush-cs16                   | Makeup Brush Cs16 | Type: Brush
+ 30. makeup-brush-cs15                   | Makeup Brush Cs15 | Type: Brush
+ 31. makeup-brush-cs14                   | Makeup Brush Cs14 | Type: Brush
+ 32. makeup-brush-cs13                   | Makeup Brush Cs13 | Type: Brush
+ 33. makeup-brush-cs12                   | Makeup Brush Cs12 | Type: Brush
+ 34. makeup-brush-cs11                   | Makeup Brush Cs11 | Type: Brush
+ 35. makeup-brush-cs09                   | Makeup Brush Cs09 | Type: Brush
+ 36. makeup-brush-cs08                   | Makeup Brush Cs08 | Type: Brush
+ 37. makeup-brush-cs05                   | Makeup Brush Cs05 | Type: Brush
+ 38. makeup-brush-cs04                   | Makeup Brush Cs04 | Type: Brush
+ 39. makeup-brush-cs03                   | Makeup Brush Cs03 | Type: Brush
+ 40. makeup-brush-cs02                   | Makeup Brush Cs02 | Type: Brush
+ 41. dip-eyeliner                        | Dip Eyeliner | Type: Eye Makeup
+ 42. extreme-liquid-eyeliner             | Extreme Liquid Eyeliner | Type: Eye Makeup
+ 43. super-glow-highlighter              | Super Glow Highlighter | Type: Face Makeup
+ 44. 4-in-1-baked-highlighter            | 4 In 1 Baked Highlighter | Type: Face Makeup
+ 45. 3-in-3-highlighter-blusher          | 3 In 3 Highlighter & Blusher | Type: Face Makeup
+ 46. 3d-pearl-eyeshade                   | 3D Pearl Eyeshade | Type: Eye Makeup
+ 47. glitter-eyeshadow                   | Glitter Eyeshadow | Type: Eye Makeup
+ 48. 3d-sparkling-dust                   | 3D Sparkling Dust | Type: Eye Makeup
+ 49. 3d-sparking-eyeliner                | 3D Sparking Eyeliner | Type: Eye Makeup
+ 50. matte-lip-gloss                     | Matte Lip Gloss | Type: Lip Makeup
+ 51. trimming-eyebrow-set                | Trimming Eyebrow Set | Type: Accessories
+ 52. makeup-brush-set                    | Makeup Brush Set | Type: Brush
+ 53. compact-puff                        | Compact Puff | Type: Accessories
+ 54. facial-sponge                       | Facial Sponge | Type: Accessories
+ 55. controlling-puff                    | Controlling Puff | Type: Accessories
+ 56. prickly-heat-powder                 | Prickly Heat Powder | Type: Skin Care
+ 57. baby-mist-100ml                     | Baby Mist 100ml | Type: Skin Care
+ 58. body-splash-155ml                   | Body Splash 155ml | Type: Skin Care
+ 59. face-wash-100ml                     | Face Wash 100ml | Type: Skin Care
+ 60. hair-spray                          | Hair Spray | Type: Hair Care
+ 61. sherbet-body-scrub-300ml            | Sherbet Body Scrub 300ml | Type: Skin Care
+ 62. finger-wax-200g                     | Finger Wax 200g | Type: Skin Care
+ 63. creamy-wax-400g                     | Creamy Wax 400g | Type: Skin Care
+ 64. ultra-hd-professional-tv-paint-stick-1 | Ultra HD Professional TV Paint Stick | Type: Face Makeup
+ 65. ultra-hd-professional-tv-paint-stick | Ultra HD Professional TV Paint Stick | Type: Face Makeup
+ 66. cosmee-nit-comb                     | Cosmee Nit Comb | Type: Hair Care
+ 67. cosmee-powder-puff                  | Cosmee Powder Puff | Type: Accessories
+ 68. cosmee-cosmetics-powder-puffs       | Cosmee Cosmetics Powder Puffs | Type: Accessories
+ 69. cosmee-cosmetics-powder-puff        | Cosmee Cosmetics Powder Puff | Type: Accessories
+ 70. high-quality-powder-puff            | High-Quality Powder Puff | Type: Accessories
+ 71. blending-brush                      | Blending Brush | Type: Brush
+ 72. flat-buffing-brush                  | Flat Buffing Brush | Type: Brush
+ 73. cut-contor-brush                    | Cut Contor Brush | Type: Brush
+ 74. eye-shadow-brush                    | Eye Shadow Brush | Type: Brush
+ 75. liquid-foundation                   | Liquid Foundation | Type: Face Makeup
+ 76. professional-hair-comb-10           | Professional Hair Comb | Type: Hair Care
+ 77. professional-hair-comb-9            | Professional Hair Comb | Type: Hair Care
+ 78. professional-hair-comb-8            | Professional Hair Comb | Type: Hair Care
+ 79. professional-hair-comb-7            | Professional Hair Comb | Type: Hair Care
+ 80. professional-hair-comb-6            | Professional Hair Comb | Type: Hair Care
+ 81. professional-hair-comb-5            | Professional Hair Comb | Type: Hair Care
+ 82. professional-hair-comb-4            | Professional Hair Comb | Type: Hair Care
+ 83. professional-hair-comb-3            | Professional Hair Comb | Type: Hair Care
+ 84. professional-hair-comb-2            | Professional Hair Comb | Type: Hair Care
+ 85. professional-hair-comb-1            | Professional Hair Comb | Type: Hair Care
+ 86. professional-hair-comq              | Professional Hair Comq | Type: Hair Care
+ 87. professional-hair-comb              | Professional Hair Comb | Type: Hair Care
+ 88. professional-makeup-brush-kit-1     | Professional Makeup Brush Kit | Type: Brush
+ 89. body-wax-strip-22pcs                | Body Wax Strip 22pcs | Type: Skin Care
+ 90. professional-makeup-brush-kit       | Professional Makeup Brush Kit | Type: Brush
+ 91. face-wax-strip-20pcs                | Face Wax Strip 20pcs | Type: Skin Care
+ 92. blackhead-nose-strip                | Blackhead Nose Strip | Type: Skin Care
+ 93. aloevera-jar                        | Aloevera Jar | Type: Skin Care
+ 94. hand-body-lotion                    | Hand & Body Lotion | Type: Skin Care
+ 95. talcum-powder-250gm                 | Talcum Powder 250gm | Type: Skin Care
+ 96. talcum-powder-125gm                 | Talcum Powder 125gm | Type: Skin Care
+ 97. aloevera-gel                        | Aloevera Gel | Type: Skin Care
+ 98. pink-magic-lip-balm                 | Pink Magic Lip Balm | Type: Lip Makeup
+ 99. fruity-lip-balm                     | Fruity Lip Balm | Type: Lip Makeup
+100. face-serum                          | Face Serum | Type: Skin Care
+101. facial-ampoules                     | Facial Ampoules | Type: Skin Care
+102. aloevera-facial-capsule             | Aloevera Facial Capsule | Type: Skin Care
+103. gold-facial-capsule                 | Gold Facial Capsule | Type: Skin Care
+104. whitening-facial-capsule            | Whitening Facial Capsule | Type: Skin Care
+105. vitmen-e-face-capsule               | Vitmen-E-Face Capsule | Type: Skin Care
+106. hair-capsule                        | Hair Capsule | Type: Hair Care
+107. mix-fruit-scrub                     | Mix Fruit Scrub | Type: Skin Care
+108. skin-polish                         | Skin Polish | Type: Skin Care
+109. kiwi-mask                           | Kiwi Mask | Type: Skin Care
+110. aloevera-massage-cream              | Aloevera Massage Cream | Type: Skin Care
+111. double-action-cleanser              | Double Action Cleanser | Type: Skin Care
+112. peach-scrub                         | Peach Scrub | Type: Skin Care
+113. oil-wax-400gm                       | Oil Wax 400GM | Type: Skin Care
+114. hard-wax-bean-1                     | Hard Wax Bean | Type: Skin Care
+115. hard-wax-bean                       | Hard Wax Bean | Type: Skin Care
+116. facial-band                         | Facial Band | Type: Accessories
+117. facial-cleansing-brush              | Facial Cleansing Brush | Type: Brush
+118. fiber-wax-paper-1                   | Fiber Wax Paper | Type: Skin Care
+119. fiber-wax-roll                      | Fiber Wax Roll | Type: Skin Care
+120. brown-wax-paper                     | Brown Wax Paper | Type: Skin Care
+121. fiber-wax-paper                     | Fiber Wax Paper | Type: Skin Care
+122. wooden-cotton-buds                  | Wooden Cotton Buds | Type: Accessories
+123. body-razor-1                        | Body Razor | Type: Accessories
+124. eye-brow-trimming-set-mini          | Eye Brow Trimming Set Mini | Type: Accessories
+125. eye-brow-razor                      | Eye Brow Razor | Type: Accessories
+126. prep-razor-1                        | Prep Razor | Type: Accessories
+127. prep-razor                          | Prep Razor | Type: Accessories
+128. body-razor                          | Body Razor | Type: Accessories
+129. blue-body-razor-3-blades            | Blue Body Razor 3 Blades | Type: Accessories
+130. pink-body-razor-3-blades            | Pink Body Razor 3 Blades | Type: Accessories
+131. 3-womens-body-razor-3-blades        | 3 Women's Body Razor 3 Blades | Type: Accessories
+132. men-body-razor-3-blades             | Men Body Razor 3 Blades | Type: Accessories
+133. 4-in-1-bleach-bowl-set              | 4 in 1 Bleach Bowl Set | Type: Accessories
+134. 3-in-1-mask-bowl-set                | 3 in 1 Mask Bowl Set | Type: Accessories
+135. pedicure-nail-brush                 | Pedicure Nail Brush | Type: Brush
+136. bath-loofa                          | Bath Loofa | Type: Accessories
+137. shower-cap                          | Shower Cap | Type: Accessories
+138. cosmetics-2inl-sharpner             | Cosmetics 2inl Sharpner | Type: Accessories
+139. nails-polish-wipes-24pcs            | Nails Polish Wipes 24pcs | Type: Nail Care
+140. nails-polish-wipes-40pcs            | Nails Polish Wipes 40pcs | Type: Nail Care
+141. nail-polish-remover-120ml-60ml      | Nail Polish Remover 120ML/60ml | Type: Nail Care
+142. hair-wax                            | Hair Wax | Type: Hair Care
+143. charcoal-nose-mask                  | Charcoal Nose Mask | Type: Skin Care
+144. nail-tips                           | Nail Tips | Type: Nail Care
+145. nail-art-kit                        | Nail Art Kit | Type: Nail Care
+146. nail-glue                           | Nail Glue | Type: Nail Care
+147. easy-on-nails                       | Easy On Nails | Type: Nail Care
+148. eye-lash-glue                       | Eye Lash Glue | Type: Eye Makeup
+149. regular-3d-eye-lashes               | Regular 3D Eye Lashes | Type: Eye Makeup
+150. proffesional-eye-lashes             | Proffesional Eye Lashes | Type: Eye Makeup
+151. eye-brow-thread                     | Eye Brow Thread | Type: Accessories
+152. fast-dense-mascara                  | Fast Dense Mascara | Type: Eye Makeup
+153. water-proof-mascara-1               | Water Proof Mascara | Type: Eye Makeup
+154. water-proof-mascara                 | Water Proof Mascara | Type: Eye Makeup
+155. khol-kajal-pencil                   | Khol Kajal Pencil | Type: Eye Makeup
+156. matt-kajal                          | Matt Kajal | Type: Eye Makeup
+157. 2-in-1-eyebrow-pencil               | 2 in 1 Eyebrow Pencil | Type: Eye Makeup
+158. marker-eye-liner                    | Marker Eye Liner | Type: Eye Makeup
+159. pen-eye-liner                       | Pen Eye Liner | Type: Eye Makeup
+160. waterproof-eyeliner                 | Waterproof EyeLiner | Type: Eye Makeup
+161. gel-eye-liner                       | Gel Eye Liner | Type: Eye Makeup
+162. cake-eye-liner                      | Cake Eye Liner | Type: Eye Makeup
+163. 39-colors-eye-shadow-kit            | 39 Colors Eye Shadow Kit | Type: Eye Makeup
+164. 24-colors-eye-shadow-kit            | 24 Colors Eye Shadow Kit | Type: Eye Makeup
+165. 16-colors-eye-shadow-kit            | 16 Colors Eye Shadow Kit | Type: Eye Makeup
+166. 6-colors-blusher                    | 6 Colors Blusher | Type: Face Makeup
+167. 10-colors-blusher                   | 10 Colors Blusher | Type: Face Makeup
+168. 4-colors-blusher                    | 4IN1 BLUSHER | Type: Face Makeup
+169. terracota-blush-on                  | Terracota Blush On | Type: Face Makeup
+170. 3-colors-blush-contour              | 3 Colors Blush & Contour | Type: Face Makeup
+171. 3-color-baking-highlighter          | 3 Color Baking Highlighter | Type: Face Makeup
+172. highlighter                         | Highlighter | Type: Face Makeup
+173. make-up-fixer-spray                 | Make Up Fixer Spray | Type: Face Makeup
+174. hd-primer                           | HD Primer | Type: Face Makeup
+175. iconic                              | ICONIC ILLUMINATOR | Type: Face Makeup
+176. pro-concealer                       | Pro Concealer | Type: Face Makeup
+177. tv-paint-stick                      | TV Paint Stick | Type: Face Makeup
+178. cc-cream                            | CC Cream | Type: Face Makeup
+179. matte-mouse                         | MATTE MOUSSE | Type: Face Makeup
+180. oil-control-pressed-powder          | Oil Control Pressed Powder | Type: Face Makeup
+181. two-way-cake                        | Two Way Cake | Type: Face Makeup
+182. oil-free-pan-cake                   | Oil Free Pan Cake | Type: Face Makeup
+183. peel-off-nail-polish                | Peel off nail polish | Type: Nail Care
+184. glitter-nail-polish                 | Glitter Nail Polish | Type: Nail Care
+185. nail-polish-large                   | Nail Polish large | Type: Nail Care
+186. nail-polish-small                   | Nail polish small | Type: Nail Care
+187. powerfull-lipgloss                  | Powerfull lipgloss | Type: Lip Makeup
+188. 24h-matte-lipgloss                  | 24h matte Lipgloss | Type: Lip Makeup
+189. stay-on-lipgloss                    | Stay On Lipgloss | Type: Lip Makeup
+190. gliter-eyeliner                     | Gliter Eyeliner | Type: Eye Makeup
+191. lip-eye-pencil                      | Lip/eye pencil | Type: Lip Makeup
+192. matte-lipstick                      | Matte Lipstick | Type: Lip Makeup
+193. classic-lipstick                    | Classic Lipstick | Type: Lip Makeup
+194. glitter-eye-liner                   | Glitter Eye Liner | Type: Eye Makeup
+195. jumbo-pencil                        | Jumbo Pencil | Type: Eye Makeup
+196. lipstick                            | Lipstick | Type: Lip Makeup
